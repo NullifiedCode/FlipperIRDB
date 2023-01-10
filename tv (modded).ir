@@ -1767,12 +1767,6 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 9028 4480 593 1667 589 541 597 532 596 534 594 562 566 564 564 539 589 567 571 558 570 1663 594 1666 591 1696 571 1662 595 1666 591 1669 598 1662 595 562 566 563 565 539 589 567 571 1661 596 561 567 563 565 564 564 1669 598 1662 595 1691 566 1668 599 558 570 1663 594 1692 565 575 1669
 #
-name: CH-LIST
-type: parsed
-protocol: NEC
-address: 08 00 00 00
-command: A7 00 00 00
-#
 name: POWER
 type: raw
 frequency: 38000
@@ -2288,24 +2282,6 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1224 1186 467 556 437 887 441 2382 463 560 433 1490 466 1757 461 1163 458 566 438 2686 463 1460 465 2359 434 86319 301 953 302 402 330 649 334
-#
-name: POWER
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: e6 00 00 00
-#
-name: VOL-
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 0b 00 00 00
-#
-name: MUTE
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 0f 00 00 00
 #
 name: POWER
 type: raw
