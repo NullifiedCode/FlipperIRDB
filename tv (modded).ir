@@ -1,0 +1,2567 @@
+Filetype: IR library file
+Version: 1
+# Last Updated 6th Dec, 2022
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 16 E9 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1B E4 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1A E5 00 00
+# 
+name: CH+
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 19 E6 00 00
+# 
+name: CH-
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 18 E7 00 00
+#
+name: POWER
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+#
+name: MUTE
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 03 00 00
+#
+name: VOL+
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+#
+name: VOL-
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+#
+name: CH+
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 03 00 00
+#
+name: CH-
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 0F F0 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 0A F5 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 58 A7 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 4B B4 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 1F E0 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 1E E1 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 1C E3 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 4B B4 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 4F B0 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 08 F7 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 09 F6 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 05 FA 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 03 00 00 00
+#
+name: CH+
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
+#
+name: CH-
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 10 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 1D 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4E B1 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 11 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 15 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 18 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 56 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 4F 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 0D 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 4C 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 0F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 4C B3 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 01 FE 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B5 4A 00 00
+#
+# ON
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 40 00 00 00
+# ON
+name: POWER
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: E9 16 00 00
+#
+name: POWER
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+#
+name: POWER
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 05 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 00 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 01 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 02 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 03 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 0B 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 1C 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 4B 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 4F 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 09 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 05 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 08 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0C 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0D 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 14 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 15 00 00 00
+#
+name: CH+
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 12 00 00 00
+#
+name: CH-
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 13 00 00 00
+#
+name: POWER
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 17 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 31 49 00 00
+command: 63 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: AA 00 00 00
+command: 1C 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 1C 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 08 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 53 00 00 00
+command: 17 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 18 18 00 00
+command: C0 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 10 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: AA 00 00 00
+command: C5 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 18 00 00 00
+command: 08 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 71 00 00 00
+command: 08 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 80 6F 00 00
+command: 0A 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 00 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 13 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 80 7E 00 00
+command: 18 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 08 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 80 75 00 00
+command: 0A 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 80 57 00 00
+command: 0A 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 0B 00 00 00
+command: 0A 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: AA 00 00 00
+command: 1B 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 85 46 00 00
+command: 12 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 05 00 00 00
+command: 02 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 08 00 00 00
+command: 0F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+#
+name: CH+
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+#
+name: CH-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 71 00 00 00
+command: 4A 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 60 00 00 00
+command: 03 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 60 00 00 00
+command: 00 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 42 00 00 00
+command: 01 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 50 AD 00 00
+command: 00 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 50 AD 00 00
+command: 02 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 3F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 06 00 00 00
+command: 0F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 12 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 08 00 00 00
+command: 0B 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: C2 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 51 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 01 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 00 00 00 00
+command: 0F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 16 00 00 00
+command: 0F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 80 68 00 00
+command: 49 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 86 02 00 00
+command: 49 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 1E E1 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 48 B7 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 44 BB 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 0A F5 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 06 F9 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 5C A3 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0C F3 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0D F2 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0A F5 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0B F4 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0E F1 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4C B3 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 0F F0 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 5A A5 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 0C F3 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 19 E6 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 41 BE 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 42 BD 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 57 A8 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 15 EA 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 50 AF 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 51 AE 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 60 9F 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 61 9E 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 64 9B 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 57 A8 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 02 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 06 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0C 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 08 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0E 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 04 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 0B 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 12 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 15 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 19 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 18 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 80 7F 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 8F 70 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 93 6C 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 8D 72 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 91 6E 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 97 68 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 96 69 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 0F F0 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 10 EF 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 20 DF 00 00
+#
+name: VOL+
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 10 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 11 00 00 00
+#
+name: CH+
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 4C 00 00 00
+#
+name: CH-
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 4D 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E0 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 23 00 00 00
+#
+name: CH-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 13 00 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+#
+name: CH+
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 10 00 00 00
+#
+name: CH-
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 11 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00
+#
+name: POWER
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 6D 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 73 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 72 00 00 00
+#
+name: CH-
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 3C 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1F 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1E 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1C 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1A 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1E 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 10 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1B 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1F 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1A 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0E 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0F 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0C 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0D 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 17 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: D7 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 80 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 8E 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 83 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 86 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: DF 00 00 00
+#
+name: POWER
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0D 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 10 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 11 00 00 00
+#
+name: CH+
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 20 00 00 00
+#
+name: CH-
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 21 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 50 AF 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5F A0 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1F E0 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5C A3 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 5D A2 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: DE 21 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: DB 24 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 53 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 03 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 41 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 44 BB 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 43 BC 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0E F1 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4A B5 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4B B4 00 00
+#
+name: POWER
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 10 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 11 00 00 00
+#
+name: CH+
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 20 00 00 00
+#
+name: CH-
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 21 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0D 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 00 FF 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 48 B7 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 49 B6 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 01 FE 00 00
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 17 00 00 00
+command: 14 00 00 00
+#
+name: CH-
+type: parsed
+protocol: Samsung32
+address: 17 00 00 00
+command: 11 00 00 00
+#
+name: CH+
+type: parsed
+protocol: Samsung32
+address: 17 00 00 00
+command: 10 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: Samsung32
+address: 17 00 00 00
+command: 13 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: Samsung32
+address: 17 00 00 00
+command: 12 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: Samsung32
+address: 17 00 00 00
+command: 15 00 00 00
+#
+name: POWER
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: CH+
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 10 00 00 00
+#
+name: CH-
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 11 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 16 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: CH+
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 20 00 00 00
+#
+name: CH-
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 21 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5F 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 1C 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 40 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5D 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 03 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 1F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 12 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 0E 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 0F 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 18 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 0A 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 0B 00 00 00
+#
+name: POWER
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 2E 00 00 00
+#
+name: POWER
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 2F 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 97 68 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0A F5 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 15 EA 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 1C E3 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 1F E0 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 1E E1 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0F F0 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 41 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: AF 50 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: BA 45 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: BB 44 00 00
+#
+name: CH+
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B0 4F 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B1 4E 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: C5 3A 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 33 00 00 00
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9028 4480 593 1667 589 541 597 532 596 534 594 562 566 564 564 539 589 567 571 558 570 1663 594 1666 591 1696 571 1662 595 1666 591 1669 598 1662 595 562 566 563 565 539 589 567 571 1661 596 561 567 563 565 564 564 1669 598 1662 595 1691 566 1668 599 558 570 1663 594 1692 565 575 1669
+#
+name: CH-LIST
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: A7 00 00 00
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 2000 500 1000 500 2000 500 8500 4000 4000 500
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 2000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 1000 500 8500 4000 4000 500
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 1000 500 8500 4000 4000 500
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 2000 500 8500 4000 4000 500
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 2000 500 1000 500 8500 4000 4000 500
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 2000 500 2000 500 8500 4000 4000 500
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 926 751 1760 756 922 756 921 782 897 782 897 783 897 784 897 784 897 1624 897 784 1736 787 895 85521 921 780 1734 784 896 783 894 785 895 784 895 784 895 785 895 784 896 1625 895 785 1735 787 896 85546 894 783 1732 763 917 783 896 783 896 784 895 784 895 785 894 785 897 1624 897 784 1734 786 897
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 953 724 927 750 1764 755 924 755 924 758 922 782 898 782 899 1624 1737 786 898 784 897 784 898 85552 923 756 921 757 1759 783 898 782 898 782 898 783 897 783 897 1623 1737 785 897 784 897 784 897 85557 927 750 926 753 1762 782 898 782 898 759 921 782 898 783 898 1623 1737 785 898 784 898 783 898
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 952 725 1763 752 927 753 925 756 922 780 899 781 899 782 899 1623 1737 786 897 784 897 1626 895 84746 892 785 1731 787 894 785 894 785 895 786 895 789 891 786 895 1627 1732 789 894 788 893 1628 894 84705 929 748 1766 751 930 750 929 750 929 750 929 752 928 753 927 1593 1766 756 926 756 925 1597 924
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 896 782 895 784 1733 785 896 785 868 812 894 784 920 762 871 812 918 1605 893 787 1735 1629 892 84752 893 784 895 781 1735 762 919 783 895 786 897 783 896 785 896 786 895 1625 897 784 1738 1625 896 84727 916 784 896 781 1736 785 897 783 896 784 896 785 897 784 895 785 897 1624 897 783 1737 1627 897
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 921 753 1759 785 896 782 897 782 897 783 895 784 896 1623 1733 786 895 784 895 784 893 785 895 85568 893 783 1734 786 893 785 895 783 895 785 894 785 895 1622 1733 786 894 784 896 784 895 784 895
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 5349 102096 3672 530 1194 102545 5171 102367 969 658 1613 481 1499 103984 503 388 210 337 161
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9021 4377 655 452 654 452 654 1567 654 453 653 453 653 453 652 454 651 455 651 1568 654 1569 653 455 651 1570 652 1570 652 1570 652 1571 651 1572 649 480 626 481 624 482 623 1599 623 483 623 484 622 484 622 484 622 1601 621 1601 621 1601 621 484 622 1601 621 1601 621 1601 621 1601 621 39912 8910 2137 622 95435 8933 2137 622 95434 8934 2137 622 95434 8934 2137 622 95434 8934 2137 622 95434 8933 2137 622 95434 8933 2138 621 95436 8932 2138 621 95435 8933 2138 621 95435 8933 2137 622
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9020 4375 657 450 656 451 654 1566 656 451 655 451 653 453 626 480 653 452 655 1567 654 1568 654 454 651 1568 654 1568 654 1569 653 1570 651 1572 650 1595 626 479 626 480 625 1597 624 482 624 482 624 483 623 483 623 483 623 1599 623 1599 623 483 623 1599 623 1599 623 1599 623 1599 623 39900 8912 2136 623
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8073 3997 524 502 495 505 492 1508 498 503 494 1505 501 1500 495 1504 491 1510 496 3988 522 502 495 1505 501 501 496 504 493 1507 499 502 495 1505 501 501 496 18806 8072 3997 524 502 495 505 492 1507 499 502 495 1505 490 1509 497 1504 491 1510 496 3988 522 502 495 1505 501 500 497 503 494 1506 500 501 496 1504 491 510 498 18806 8072 3998 523 503 494 506 491 1509 497 504 493 1506 499 1501 494 1506 500 1502 493 3989 522 504 493 1507 499 502 495 505 492 1508 498 503 494 1506 499 502 495 18807 8072 3998 523 503 494 506 491 1509 497 504 493 1506 500 1501 494 1506 500 1502 493 3989 521 503 494 1506 500 502 495 505 492 1508 498 503 494 1506 500 502 495 18807 8072 3998 523 502 495 505 492 1508 498 503 494 1505 501 1500 495 1504 491 1510 496 3988 523 502 495 1505 501 501 496 503 494 1506 500 501 496 1504 491 510 498
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8069 3998 522 503 494 506 491 1509 496 505 492 1507 498 1501 494 1506 499 1502 493 3989 521 1503 492 1508 497 1503 492 508 500 1501 494 506 491 510 498 504 493 17810 8067 4003 517 508 500 501 496 1504 491 510 498 1502 493 1507 498 1501 494 1508 497 3984 526 1474 521 1504 501 1500 495 505 492 1509 496 505 492 508 500 502 495 17809 8069 4000 520 506 491 509 499 1501 494 507 501 1499 496 1503 492 1508 497 1504 491 3991 519 1480 525 1500 495 1505 500 500 497 1503 492 509 499 503 494 507 490 17809 8069 3999 521 505 492 508 500 1500 495 506 491 1508 497 1502 493 1507 498 1503 492 3990 520 1504 491 1509 496 1504 491 509 499 1501 494 507 501 501 496 505 492 17808 8070 3998 523 503 494 506 491 1509 496 504 493 1507 498 1501 494 1506 499 1502 493 3988 522 1502 493 1507 498 1502 493 507 501 1500 495 505 492 509 499 502 495
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8066 4002 519 507 501 500 497 1503 492 508 500 1500 495 1480 525 1475 520 1506 499 3983 517 508 500 1500 495 1481 524 501 496 1504 491 510 498 503 494 507 501 18803 8073 3997 524 503 494 506 491 1483 522 504 493 1506 499 1476 519 1482 523 1478 517 3989 521 504 493 1482 523 1478 517 508 500 1476 519 507 501 500 497 505 492 18809 8066 4003 517 508 500 501 496 1503 492 509 499 1501 494 1480 525 1475 520 1481 524 3983 516 509 499 1501 494 1482 523 502 495 1505 500 500 497 504 493 508 500
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8069 4000 520 480 517 508 500 1500 495 505 492 1508 497 1502 493 1506 499 1502 493 3989 521 1503 492 1509 496 503 494 1506 499 1501 494 506 491 510 498 504 493 17807 8072 3997 524 501 496 505 492 1508 497 502 495 1505 500 1499 496 1504 491 1510 495 3986 524 1500 495 1506 499 500 497 1503 492 1508 497 503 494 507 501 501 496 17804 8064 4004 517 509 499 501 496 1504 491 509 499 1500 495 1505 500 1499 496 1505 500 3980 520 1505 500 1500 495 505 492 1508 497 1502 493 508 500 501 496 505 492 17807 8072 3995 526 500 497 503 494 1506 499 501 496 1504 491 1508 497 1503 492 1509 496 3985 515 1509 496 1503 492 508 500 1500 495 1506 499 501 496 505 492 509 499 17803 8065 4003 518 508 500 501 496 1504 491 509 499 1502 493 1507 498 1502 493 1508 497 3985 525 1500 495 1505 500 500 497 1503 492 1508 497 504 493 508 500 501 496
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8064 4006 525 501 496 504 493 1507 498 502 495 1505 500 1499 496 1504 501 1500 495 3987 523 1501 494 1507 498 502 495 505 492 1508 497 1503 492 509 499 503 494 17808 8069 4000 520 505 492 508 500 1500 495 506 491 1508 497 1503 492 1508 497 1504 491 3991 519 1505 500 1501 494 507 501 500 497 1502 493 1508 497 503 494 508 500 17803 8064 4006 525 501 496 504 493 1507 498 503 494 1505 500 1500 495 1505 500 1500 495 3988 522 1502 493 1507 498 503 494 506 491 1508 497 1503 492 509 499 503 494
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8068 3999 521 504 493 507 501 1498 497 504 493 1505 500 1475 520 1479 526 1500 495 3987 523 502 495 1505 500 501 496 504 493 1506 499 1501 494 507 501 500 497 18802 8072 3996 524 502 495 505 492 1507 498 503 494 1505 500 1475 520 1480 525 1476 519 3987 523 501 496 1504 491 510 498 502 495 1504 501 1475 520 505 492 509 498 18798 8065 4001 519 507 501 499 498 1502 493 507 501 1499 496 1504 501 1473 522 1504 501 3981 518 506 491 1509 496 505 492 508 499 1500 495 1505 500 500 497 505 492 18808 8065 4001 519 507 501 500 497 1503 492 508 499 1500 495 1505 500 1499 496 1506 499 3983 516 508 499 1501 494 507 501 500 497 1502 493 1508 497 504 493 508 500
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3553 1709 466 407 465 1277 466 407 492 379 464 406 465 406 465 405 466 405 466 406 491 407 463 408 462 409 461 411 460 1284 459 412 460 412 460 412 459 412 459 412 459 412 459 412 460 412 459 412 459 1284 459 412 460 412 459 412 459 413 459 412 460 412 459 412 460 412 459 1285 458 412 459 1285 458 1285 459 1285 458 1285 458 413 458 413 458 1285 458 413 458 1285 459 1285 459 1285 458 1285 458 413 458 1285 458 74570 3544 1715 460 411 460 1284 459 412 459 412 459 412 459 412 460 412 459 412 459 412 459 412 459 412 459 412 460 412 459 1284 459 412 460 412 459 412 459 412 460 412 459 412 459 412 459 412 459 412 460 1284 459 412 459 412 459 412 460 412 459 412 460 412 459 412 460 412 460 1284 459 412 460 1284 459 1284 459 1285 459 1285 458 413 458 413 458 1285 459 412 459 1285 458 1285 458 1285 459 1285 459 412 459 1284 459 74570 3544 1715 459 413 458 1285 459 412 459 412 459 413 459 413 458 413 458 413 459 413 458 413 458 413 459 413 458 413 458 1285 459 413 459 413 458 413 458 413 459 413 458 413 459 413 458 413 458 413 459 1285 458 413 458 413 458 413 459 413 458 413 458 413 459 413 459 413 458 1285 459 413 458 1285 459 1285 459 1285 458 1285 458 413 458 413 458 1285 459 413 458 1285 458 1285 458 1286 457 1286 458 414 458 1286 457
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3554 1678 495 403 468 1248 495 403 497 374 497 375 497 374 497 374 497 375 496 375 496 375 495 377 493 378 492 380 490 1254 489 383 488 383 489 383 488 383 488 383 488 383 489 383 488 383 489 383 488 1255 488 383 488 384 488 383 488 384 487 384 487 384 487 384 488 384 488 384 487 1256 487 384 488 384 487 1256 488 1256 488 384 487 384 487 384 488 1256 487 384 488 384 487 1257 487 1257 487 385 486 1257 487
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3554 1678 495 404 467 1249 524 374 497 374 497 374 497 374 497 374 497 375 496 375 495 376 494 377 493 379 491 381 489 1255 488 383 488 383 488 383 489 383 488 383 488 383 488 383 489 383 488 383 489 1255 488 383 489 383 488 383 489 383 488 383 488 384 488 383 489 383 488 384 488 384 487 383 488 384 487 384 488 1256 488 384 487 384 487 384 488 384 487 384 487 384 488 384 487 1256 487 384 488 1256 487 75630 3547 1686 487 384 487 1281 462 409 463 409 462 409 462 410 462 409 462 409 463 409 463 410 461 410 461 410 462 410 461 1282 462 410 461 410 461 410 462 410 461 410 461 410 462 410 461 410 461 410 461 1282 462 410 462 410 461 410 461 410 461 410 462 410 462 410 461 410 461 410 462 410 462 410 461 410 462 410 461 1282 462 410 461 410 461 410 461 410 461 411 461 410 461 411 461 1282 461 411 461 1283 460
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3585 1649 524 374 497 1245 498 373 498 374 497 375 496 375 496 375 496 375 496 375 496 376 494 378 492 379 491 381 490 1255 489 383 488 383 488 383 489 383 488 383 488 383 488 383 488 383 489 383 488 1255 488 383 488 383 488 383 489 383 488 383 488 383 488 383 488 383 488 1256 488 384 488 384 487 384 487 384 487 1256 487 384 488 384 488 1256 487 384 488 408 463 385 487 384 487 1257 486 385 486 1257 486 75629 3549 1684 489 383 488 1255 488 383 488 383 489 383 488 383 489 383 488 383 489 383 488 383 489 383 488 383 488 384 488 1255 489 383 488 384 488 384 487 383 488 384 487 383 489 384 487 384 488 384 487 1256 487 384 488 384 487 384 488 384 487 385 486 384 488 385 486 385 486 1257 487 384 487 409 462 386 486 385 486 1257 486 385 486 409 462 1257 487 409 462 409 463 409 462 409 463 1281 462 410 462 1282 461
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3514 1773 418 456 424 1329 421 453 427 446 424 451 419 460 420 453 427 447 423 451 419 461 419 454 426 447 423 450 420 1333 428 447 423 457 423 450 420 453 427 447 423 457 423 450 420 453 427 447 423 1329 421 453 427 453 417 456 424 449 421 453 417 462 418 455 425 449 421 1332 418 455 425 1301 449 1305 445 1313 448 1306 444 457 423 456 424 1307 454 453 427 1304 446 1309 504 1249 501 1251 499 376 452 1300 450 75472 3513 1755 446 455 425 1300 450 451 419 456 424 455 425 448 422 451 419 456 424 455 425 448 422 452 418 456 424 455 425 1334 427 453 427 447 423 450 420 455 425 454 426 447 423 451 419 455 425 454 426 1306 455 452 418 456 424 449 421 454 426 453 427 446 424 450 420 454 426 1299 451 451 419 1307 454 1302 501 1253 445 1315 498 381 447 454 426 1299 451 450 420 1308 453 1307 454 1300 450 1304 446 454 426 1301 449 75485 3520 1770 421 453 427 1300 450 450 420 453 427 448 422 457 423 451 419 454 426 448 422 458 422 451 419 455 425 449 421 1305 445 457 423 457 423 450 420 454 426 448 422 457 423 450 420 454 426 447 423 1303 447 454 426 453 427 446 424 450 420 454 426 453 427 446 424 450 420 1307 454 446 424 1304 446 1307 454 1305 456 1298 452 450 420 460 420 1313 448 459 421 1310 451 1304 446 1308 453 1300 450 424 446 1307 454
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3514 1774 427 453 417 1342 419 461 419 454 426 447 423 451 419 461 419 454 426 447 423 451 419 461 419 454 426 447 423 1330 420 453 427 447 423 457 423 450 420 453 427 448 422 457 423 450 420 454 426 1327 423 450 420 455 425 454 426 448 422 451 419 456 424 455 425 448 422 452 418 456 424 1330 420 453 427 1327 423 1303 447 454 426 448 422 458 422 451 419 1335 426 448 422 1333 417 1342 419 461 419 1341 420 75512 3516 1771 420 454 426 1327 423 451 419 461 419 454 426 447 423 452 418 461 419 454 426 447 423 452 418 462 418 455 425 1327 424 450 420 454 426 448 422 457 423 450 420 454 426 448 422 457 423 450 420 1333 418 456 424 448 422 453 417 462 418 454 426 447 423 451 419 461 419 453 427 446 424 1329 421 452 418 1336 425 1328 422 451 419 454 426 448 422 458 422 1309 452 455 425 1306 455 1326 424 449 421 1306 445
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3519 1775 426 448 422 1332 418 455 425 449 421 459 421 452 418 456 424 450 420 459 421 452 418 456 424 450 420 460 420 1339 422 458 422 451 419 455 425 449 421 459 421 452 418 455 425 449 421 459 421 1339 422 457 423 451 419 454 426 448 422 458 422 451 419 454 426 448 422 1331 419 454 426 1327 423 450 420 1307 454 1299 451 449 421 453 427 1326 424 449 421 1333 417 456 424 1329 421 1304 446 454 426 1327 423
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3516 1772 419 455 425 1328 422 452 418 462 418 455 425 448 422 453 417 462 418 455 425 448 422 453 417 462 418 455 425 1328 422 451 419 454 426 448 422 458 422 451 419 455 425 448 422 458 422 451 419 1335 426 448 422 451 419 456 424 455 425 448 422 451 419 456 424 455 425 447 423 451 419 455 425 454 426 447 423 1331 419 454 426 447 423 452 418 461 419 454 426 447 423 451 419 1335 426 447 423 1331 419 75481 3511 1755 446 454 426 1326 424 449 421 454 426 453 427 446 424 449 421 454 426 453 427 446 424 449 421 454 426 453 427 1332 418 461 419 454 426 447 423 451 419 460 420 453 427 446 424 451 419 460 420 1339 422 457 423 451 419 454 426 448 422 458 422 451 419 454 426 448 422 458 422 451 419 454 426 449 421 459 421 1338 423 456 424 450 420 454 426 448 422 458 422 451 419 455 425 1328 422 452 418 1336 425
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3516 1747 444 456 424 1329 421 453 427 446 424 451 419 460 420 454 426 447 423 451 419 461 419 454 426 447 423 451 419 1334 427 448 422 458 422 451 419 455 425 450 420 459 421 453 417 456 424 450 420 1333 417 457 423 456 424 449 421 453 427 447 423 457 423 450 420 454 426 1328 422 451 419 456 424 455 425 448 422 1331 419 455 425 448 422 1332 418 455 425 449 421 459 421 452 418 1336 425 449 421 1332 418
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3515 1747 454 446 424 1303 447 454 426 453 427 446 424 450 419 454 426 453 427 446 424 449 420 454 426 453 427 446 424 1303 447 427 453 447 423 451 419 461 419 454 426 447 422 452 417 462 418 456 424 1303 447 453 427 446 424 451 418 461 419 454 426 447 423 452 418 462 418 455 425 1302 448 452 417 456 424 1303 447 1307 506 368 449 451 418 455 425 1301 449 453 427 453 427 1331 419 1308 452 448 422 1306 454 75492 3517 1777 424 450 419 1306 454 447 423 452 418 462 418 456 424 449 420 454 426 453 427 446 424 450 419 454 426 454 426 1333 427 452 428 446 424 450 419 454 426 454 426 447 422 451 418 455 425 455 425 1334 426 453 427 447 423 450 419 455 425 454 426 447 423 451 418 456 424 455 425 1334 426 453 427 447 423 1303 447 1314 447 459 421 453 427 446 423 1330 420 453 427 447 422 1303 447 1307 453 447 423 1303 447
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3562 1687 494 382 493 1257 493 382 492 382 493 383 492 383 492 384 491 384 490 384 491 384 491 384 491 384 491 384 490 1260 491 383 492 384 491 384 491 384 491 384 491 384 491 384 491 383 492 383 492 1259 491 383 492 384 491 384 491 384 491 384 491 384 490 384 491 384 491 1260 490 384 491 1260 490 1259 492 1259 490 1260 490 384 490 384 491 1260 490 383 492 1259 491 1259 491 1259 491 1259 491 384 490 1259 491 75054 3561 1687 494 381 494 1256 494 382 492 382 493 383 492 383 491 383 492 384 490 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 383 492 384 491 384 491 384 491 383 492 383 492 383 492 384 491 1259 491 383 492 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 1259 491 1259 491 1259 491 1259 491 384 491 384 491 1259 491 383 492 1259 491 1259 491 1259 491 1259 491 384 491 1259 491 75053 3560 1688 493 382 492 1258 492 383 492 384 491 384 491 384 491 384 491 384 491 384 491 383 492 384 491 384 491 384 491 1259 491 384 491 384 491 384 491 384 491 384 491 384 491 383 492 384 491 384 491 1259 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 1259 491 1259 491 1259 491 1259 491 384 491 384 491 1259 492 383 492 1259 491 1259 491 1259 491 1259 491 384 491 1259 491
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3565 1685 496 380 494 1255 495 381 493 381 494 381 493 382 492 382 493 382 492 383 492 383 492 383 492 384 491 383 491 1260 491 384 491 384 491 384 491 384 491 384 491 384 491 384 490 384 491 384 491 1259 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 490 385 490 384 491 384 491 384 491 1260 490 384 491 384 491 384 491 384 490 384 491 384 491 384 491 1260 490 384 491 1259 491 74918 3534 1690 491 383 492 1259 491 383 492 384 490 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 384 491 384 491 384 491 384 491 384 490 385 490 384 491 384 491 1260 491 384 491 384 491 384 491 385 490 384 491 384 491 384 491 385 490 384 491 385 490 384 490 384 491 385 490 1260 490 384 491 385 490 384 490 384 491 384 491 384 491 385 490 1260 490 385 490 1260 490
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3563 1686 495 381 494 1256 493 381 494 382 492 382 493 382 493 383 491 383 491 384 491 383 491 384 491 384 491 384 491 1260 490 384 491 384 490 385 490 384 491 385 490 385 490 384 491 385 490 384 491 1260 490 385 490 385 490 384 491 385 490 385 490 384 490 385 490 385 490 1260 490 385 490 385 490 385 490 385 490 1261 489 385 490 386 489 1260 490 385 490 385 490 385 490 385 490 1260 490 385 490 1261 489 75231 3533 1690 491 385 490 1260 490 384 491 384 491 384 491 384 491 384 491 384 490 385 490 384 490 385 490 385 489 385 490 1260 490 385 490 384 491 384 491 385 490 385 490 385 490 384 491 385 490 385 490 1260 490 385 490 385 490 385 490 384 491 384 491 385 490 385 490 385 490 1261 489 385 490 385 489 385 490 385 490 1260 490 385 490 385 490 1260 490 385 490 385 490 385 490 385 490 1260 490 385 490 1260 491
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3570 1654 527 375 499 1224 526 376 499 376 498 377 497 377 497 378 496 378 496 379 495 379 495 380 494 380 494 381 493 1256 494 381 493 382 492 383 492 383 492 383 492 383 492 383 492 383 492 383 492 1259 491 383 492 383 492 383 492 383 492 383 492 383 492 383 492 383 492 383 492 1258 492 383 492 383 492 1259 491 1259 491 383 492 383 492 383 492 1259 492 383 492 383 492 1259 491 1258 492 383 492 1259 491 74993 3561 1688 493 382 492 1258 492 383 492 383 492 383 492 383 492 383 492 383 492 383 492 383 492 384 491 384 491 384 491 1259 491 384 491 384 491 383 492 383 492 384 491 384 491 384 491 384 491 384 491 1259 492 383 492 383 491 384 491 383 492 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 384 491 1259 491 1259 491 384 491 384 491 384 491 1259 491 384 491 384 491 1259 491 1259 491 384 491 1259 491
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3568 1655 526 376 498 1226 524 377 497 378 496 379 495 379 496 379 495 380 494 381 493 381 493 381 493 382 493 382 492 1258 492 383 492 383 492 383 492 384 491 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 384 491 383 492 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 1259 491 1259 491 384 491 383 492 384 491 384 491 1259 491 384 491 1259 491 1259 491 384 491 1259 491 74991 3558 1689 492 383 491 1259 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1260 490 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1260 490 384 491 384 491 384 491 384 491 384 490 384 491 384 491 384 491 384 491 384 491 1260 490 384 491 1260 490 1260 491 384 490 384 491 384 491 384 491 1260 490 384 491 1260 490 1260 490 384 491 1260 490 74966 3559 1689 492 383 492 1259 491 383 492 383 492 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1259 491 383 492 383 492 384 491 384 491 384 491 384 491 384 490 384 491 384 491 1260 490 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1260 490 384 491 1259 491 1260 490 384 491 384 491 384 491 384 491 1260 490 384 491 1260 490 1260 490 384 491 1260 490 74966 3559 1690 491 383 492 1259 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1260 490 384 491 384 491 384 491 384 491 385 490 384 491 384 491 384 491 384 491 384 491 1260 490 384 491 1260 490 1260 490 384 491 384 491 384 491 384 491 1260 490 384 491 1260 490 1260 490 385 490 1260 491 75014 3535 1690 491 383 492 1259 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1259 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1260 490 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 384 491 1260 490 384 491 1260 490 1260 490 384 491 384 491 384 491 385 490 1260 490 384 491 1260 490 1260 490 384 491 1260 490
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3568 1655 526 376 498 1223 553 349 499 376 498 377 498 377 498 377 497 377 498 377 497 377 497 378 496 378 496 379 495 1255 494 381 493 382 492 383 491 384 491 385 489 385 490 385 490 385 490 385 490 1260 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 1261 489 385 490 1261 489 385 490 1261 489 1261 489 386 489 385 490 1261 489 385 490 1261 489 386 489 1261 489 1261 489 386 489 1261 489 74774 3560 1690 491 383 491 1260 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 1260 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 1261 489 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 1261 489 385 490 1261 489 386 489 1262 488 1261 489 386 489 386 489 1261 489 386 489 1261 489 386 489 1261 489 1262 488 386 489 1287 463 74751 3559 1690 491 384 490 1260 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 1261 489 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 385 490 1261 489 385 490 385 490 385 490 385 490 386 489 386 489 385 490 386 489 1261 489 386 489 1261 489 386 489 1261 489 1261 489 386 489 386 489 1261 489 386 489 1262 488 387 488 1262 488 1262 488 386 489 1262 488
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3476 1735 443 429 446 1300 451 422 453 420 445 428 447 426 449 423 452 448 417 429 446 426 449 424 451 422 443 430 445 1300 451 422 453 420 445 428 447 426 449 423 452 421 444 429 446 427 448 424 451 1295 445 427 448 425 450 423 452 420 445 429 446 426 449 424 451 421 444 1303 448 425 450 1296 444 1301 450 1296 444 1302 448 424 451 422 453 1293 447 426 449 1296 444 1302 448 1297 454 1293 447 425 450 1296 444 74939 3477 1734 444 429 446 1300 451 422 453 419 446 455 420 425 450 423 452 420 445 428 447 426 449 424 451 421 444 429 446 1300 451 422 453 420 445 428 447 425 450 423 452 420 445 429 446 426 449 424 451 1295 445 427 448 425 450 422 453 420 445 428 447 426 449 424 451 421 444 1302 449 424 451 1295 445 1301 450 1296 444 1302 449 424 451 422 453 1292 448 425 450 1296 444 1301 450 1297 443 1302 448 425 450 1295 445 74938 3478 1734 444 428 447 1299 452 421 444 429 446 427 448 425 450 422 453 420 444 428 447 426 449 423 452 421 444 429 446 1300 451 422 453 419 446 428 447 425 450 423 452 421 444 429 446 426 449 424 451 1295 445 427 448 425 450 423 452 420 445 428 447 426 449 424 451 421 444 1302 448 424 451 1295 445 1301 450 1296 444 1302 449 424 451 422 453 1292 448 425 450 1296 444 1301 450 1296 444 1302 449 424 451 1295 445 74938 3479 1733 445 428 447 1299 452 421 444 429 446 426 449 424 451 421 454 419 446 427 448 425 450 422 453 420 445 428 447 1299 452 421 444 429 446 426 449 424 451 422 453 419 446 427 448 425 450 422 453 1293 447 426 449 423 452 421 444 429 446 426 449 424 451 422 453 419 446 1301 450 422 453 1293 447 1299 452 1294 446 1300 451 422 453 419 446 1301 449 423 452 1294 446 1300 451 1295 445 1300 451 422 453 1293 447
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3476 1736 473 399 445 1301 481 392 452 421 444 429 446 427 448 424 451 422 453 419 446 427 448 425 450 423 452 420 445 1301 450 423 452 421 444 429 446 427 448 424 451 422 453 419 446 427 448 425 450 1296 444 428 447 426 449 423 452 421 444 429 446 427 448 424 451 422 453 419 446 1301 450 423 452 420 445 1301 450 1297 443 429 446 427 448 424 451 1295 445 428 478 394 450 1296 444 1302 449 424 451 1294 446 74876 3479 1732 446 427 448 1298 453 420 445 428 447 425 450 423 452 421 444 429 446 426 449 424 451 421 444 429 446 427 448 1298 453 420 445 428 447 426 449 423 452 421 444 429 446 426 449 424 451 421 444 1303 448 425 450 423 452 420 445 428 447 426 449 423 452 421 444 429 446 426 449 1297 454 419 446 428 447 1298 453 1293 447 426 449 423 452 421 444 1302 449 424 451 422 453 1293 447 1298 453 420 445 1302 449 74849 3474 1738 450 422 453 1293 447 425 450 423 452 420 445 428 447 426 449 424 451 421 444 429 446 427 448 425 450 422 453 1293 447 426 449 423 452 421 444 429 446 426 449 424 451 422 453 419 446 427 448 1298 453 420 445 428 447 426 449 423 452 421 444 429 446 426 449 424 451 422 443 1303 448 425 450 423 452 1293 447 1299 452 421 444 429 446 427 448 1298 453 420 445 428 447 1299 452 1294 446 426 449 1297 443 74855 3479 1733 445 427 448 1298 453 420 445 428 447 426 449 423 452 421 444 429 446 427 448 424 451 422 453 419 446 427 448 1298 453 420 445 428 447 426 449 424 451 421 444 429 446 427 448 425 450 422 453 1293 447 426 449 423 452 421 444 429 446 427 448 424 451 422 453 419 446 427 448 1298 453 420 445 428 447 1299 452 1294 446 427 448 424 451 422 453 1293 447 425 450 423 452 1293 447 1299 452 421 444 1302 449
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3476 1735 443 429 446 1300 451 422 453 420 445 428 447 426 449 423 452 448 417 429 446 426 449 424 451 422 443 430 445 1300 451 422 453 420 445 428 447 426 449 423 452 421 444 429 446 427 448 424 451 1295 445 427 448 425 450 423 452 420 445 429 446 426 449 424 451 421 444 1303 448 425 450 1296 444 1301 450 1296 444 1302 448 424 451 422 453 1293 447 426 449 1296 444 1302 448 1297 454 1293 447 425 450 1296 444 74939 3477 1734 444 429 446 1300 451 422 453 419 446 455 420 425 450 423 452 420 445 428 447 426 449 424 451 421 444 429 446 1300 451 422 453 420 445 428 447 425 450 423 452 420 445 429 446 426 449 424 451 1295 445 427 448 425 450 422 453 420 445 428 447 426 449 424 451 421 444 1302 449 424 451 1295 445 1301 450 1296 444 1302 449 424 451 422 453 1292 448 425 450 1296 444 1301 450 1297 443 1302 448 425 450 1295 445 74938 3478 1734 444 428 447 1299 452 421 444 429 446 427 448 425 450 422 453 420 444 428 447 426 449 423 452 421 444 429 446 1300 451 422 453 419 446 428 447 425 450 423 452 421 444 429 446 426 449 424 451 1295 445 427 448 425 450 423 452 420 445 428 447 426 449 424 451 421 444 1302 448 424 451 1295 445 1301 450 1296 444 1302 449 424 451 422 453 1292 448 425 450 1296 444 1301 450 1296 444 1302 449 424 451 1295 445 74938 3479 1733 445 428 447 1299 452 421 444 429 446 426 449 424 451 421 454 419 446 427 448 425 450 422 453 420 445 428 447 1299 452 421 444 429 446 426 449 424 451 422 453 419 446 427 448 425 450 422 453 1293 447 426 449 423 452 421 444 429 446 426 449 424 451 422 453 419 446 1301 450 422 453 1293 447 1299 452 1294 446 1300 451 422 453 419 446 1301 449 423 452 1294 446 1300 451 1295 445 1300 451 422 453 1293 447
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3476 1736 473 399 445 1301 481 392 452 421 444 429 446 427 448 424 451 422 453 419 446 427 448 425 450 423 452 420 445 1301 450 423 452 421 444 429 446 427 448 424 451 422 453 419 446 427 448 425 450 1296 444 428 447 426 449 423 452 421 444 429 446 427 448 424 451 422 453 419 446 1301 450 423 452 420 445 1301 450 1297 443 429 446 427 448 424 451 1295 445 428 478 394 450 1296 444 1302 449 424 451 1294 446 74876 3479 1732 446 427 448 1298 453 420 445 428 447 425 450 423 452 421 444 429 446 426 449 424 451 421 444 429 446 427 448 1298 453 420 445 428 447 426 449 423 452 421 444 429 446 426 449 424 451 421 444 1303 448 425 450 423 452 420 445 428 447 426 449 423 452 421 444 429 446 426 449 1297 454 419 446 428 447 1298 453 1293 447 426 449 423 452 421 444 1302 449 424 451 422 453 1293 447 1298 453 420 445 1302 449 74849 3474 1738 450 422 453 1293 447 425 450 423 452 420 445 428 447 426 449 424 451 421 444 429 446 427 448 425 450 422 453 1293 447 426 449 423 452 421 444 429 446 426 449 424 451 422 453 419 446 427 448 1298 453 420 445 428 447 426 449 423 452 421 444 429 446 426 449 424 451 422 443 1303 448 425 450 423 452 1293 447 1299 452 421 444 429 446 427 448 1298 453 420 445 428 447 1299 452 1294 446 426 449 1297 443 74855 3479 1733 445 427 448 1298 453 420 445 428 447 426 449 423 452 421 444 429 446 427 448 424 451 422 453 419 446 427 448 1298 453 420 445 428 447 426 449 424 451 421 444 429 446 427 448 425 450 422 453 1293 447 426 449 423 452 421 444 429 446 427 448 424 451 422 453 419 446 427 448 1298 453 420 445 428 447 1299 452 1294 446 427 448 424 451 422 453 1293 447 425 450 423 452 1293 447 1299 452 421 444 1302 449
+#
+name: POWER2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3478 1734 444 428 447 1299 452 421 454 419 446 427 448 425 450 422 453 420 445 428 447 426 449 423 452 421 444 429 446 1300 451 422 453 420 445 428 447 425 450 423 452 420 445 1302 448 1297 454 419 446 1301 450 423 452 420 445 428 447 426 449 424 451 421 444 429 446 427 448 1298 453 420 445 1301 450 1297 443 1302 449 1298 453 420 445 428 447 1299 452 421 444 1302 449 1298 453 420 445 428 447 426 449 1297 443 74942 3481 1731 447 426 449 1296 444 429 446 427 448 424 451 422 453 420 445 428 447 425 450 423 452 421 444 429 446 426 449 1297 454 419 446 427 448 425 450 423 452 420 445 428 447 1299 452 1294 446 427 448 1298 453 420 445 428 447 426 449 423 452 421 444 429 446 427 448 425 450 1296 444 428 447 1299 452 1294 446 1300 451 1296 444 428 447 426 449 1297 454 419 446 1300 451 1296 444 428 447 426 449 424 451 1294 446
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3481 1715 457 442 428 1284 457 442 428 443 427 443 427 443 427 442 428 442 428 442 453 417 453 417 453 417 452 418 451 1289 451 422 448 447 422 424 447 447 423 448 422 424 446 448 422 448 422 448 422 1319 422 448 422 448 422 448 422 448 422 448 423 448 422 448 422 448 422 1319 422 448 422 1319 422 1319 422 1319 422 1319 422 448 422 449 421 1319 422 448 422 1320 421 1319 422 1320 421 1319 422 449 422 1319 422 74732 3475 1750 422 448 422 1319 422 448 422 448 422 448 422 448 422 448 422 448 422 448 422 448 422 448 422 448 422 449 422 1319 422 449 421 449 421 448 422 449 421 449 421 449 421 449 421 449 421 449 421 1320 421 449 421 449 421 449 421 449 421 449 422 449 421 449 422 449 421 1320 421 449 421 1320 421 1320 421 1320 421 1320 421 449 421 449 421 1320 421 449 421 1320 421 1320 421 1320 421 1320 421 450 420 1321 420 74732 3475 1750 422 448 422 1319 422 448 422 448 423 448 422 448 422 448 422 448 422 448 422 448 422 448 422 448 422 448 422 1319 422 448 422 448 422 448 422 448 422 448 422 449 421 449 421 449 421 448 422 1320 421 449 421 449 421 449 422 449 421 449 421 449 422 449 421 449 421 1320 421 449 421 1320 421 1320 421 1320 421 1320 421 449 421 449 421 1320 421 449 421 1320 421 1320 421 1320 421 1320 421 449 421 1320 421
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3596 1604 513 388 429 1282 459 442 428 442 428 442 428 442 428 442 428 441 429 441 429 442 428 442 428 443 426 445 449 1289 452 446 423 447 423 448 422 448 422 448 422 448 422 448 422 448 422 448 422 1319 422 448 422 448 422 448 422 448 422 448 422 448 422 448 423 448 422 448 422 448 422 448 422 448 422 448 422 1319 422 448 422 449 422 448 422 448 422 448 422 448 422 448 422 1319 422 448 422 1320 421
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3480 1715 457 441 429 1284 457 442 428 442 428 442 428 442 428 442 428 441 429 442 428 442 453 417 453 417 453 418 451 1289 451 421 449 447 423 447 423 447 423 447 423 448 422 448 422 448 423 447 423 1318 423 447 423 448 422 448 423 447 423 448 423 448 422 448 422 448 422 1319 422 448 422 448 422 448 423 448 422 1319 422 448 423 448 422 1319 422 448 422 448 422 448 422 448 422 1319 422 448 423 1319 422
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3537 1660 458 441 429 1311 430 442 428 442 428 442 428 442 428 442 428 442 428 442 428 442 428 442 453 417 453 417 453 1287 453 420 449 422 447 447 423 448 422 448 422 448 422 448 422 448 422 448 422 1319 422 448 422 447 423 448 422 448 422 448 422 448 422 448 422 448 423 448 422 1319 422 448 422 448 423 1319 422 1319 423 448 422 448 422 448 422 1319 422 448 422 448 422 1319 422 1319 422 448 422 1319 422
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3481 1715 457 441 429 1311 430 442 429 442 428 442 428 442 428 442 428 441 429 442 428 442 453 417 453 417 452 419 450 1289 451 422 447 447 423 447 423 447 423 448 422 448 422 448 422 448 422 448 422 1319 422 448 422 448 422 448 422 448 422 448 423 448 422 448 422 448 422 448 422 448 422 1319 422 448 422 1319 422 1319 422 448 422 448 422 448 422 448 422 1319 422 448 422 1319 422 1319 422 448 422 1319 422
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3505 1690 483 416 454 1258 483 416 454 416 454 417 428 442 428 442 428 441 455 416 454 416 454 416 454 417 452 419 450 1289 451 421 448 423 447 448 422 448 422 448 422 448 422 448 422 448 422 448 422 1319 422 448 422 448 422 448 422 448 423 448 422 448 423 448 422 448 422 1319 422 448 422 1319 422 448 422 1319 422 1319 422 448 422 448 423 1319 422 448 422 1319 422 448 422 1319 422 1320 421 449 421 1319 422
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3477 1735 448 424 445 1301 448 425 444 429 450 422 447 426 443 430 449 423 446 427 452 421 448 424 445 428 451 422 447 1299 450 422 447 426 443 430 449 423 446 427 452 420 449 424 445 428 451 421 448 1298 451 422 447 425 444 429 450 423 446 426 443 430 449 423 446 427 452 1294 444 428 451 1295 443 1303 446 1300 449 1297 452 421 500 373 444 1302 447 426 443 1303 446 1300 449 1297 452 1294 444 428 451 1295 443 74431 3476 1736 448 425 444 1302 447 426 453 419 450 423 446 427 452 420 449 424 445 427 452 421 448 425 444 428 451 422 447 1299 450 422 447 426 453 420 449 423 446 427 452 420 449 424 445 428 451 421 448 1298 451 422 447 425 454 419 450 423 446 454 425 447 422 451 418 427 452 1294 444 428 451 1295 443 1302 447 1300 449 1297 452 420 449 451 418 1301 448 424 445 1302 447 1299 450 1296 442 1304 445 454 425 1294 444 74431 3475 1737 446 425 454 1293 445 426 453 420 449 424 445 427 452 421 448 424 445 428 451 422 447 425 454 419 450 422 447 1300 449 424 445 427 452 421 448 424 445 428 451 421 448 425 454 418 451 422 447 1300 449 424 445 454 425 420 449 424 445 428 451 421 448 425 444 429 450 1296 453 419 450 1297 452 1294 444 1301 448 1298 451 422 509 364 453 1293 445 427 452 1294 444 1301 448 1298 451 1296 453 420 449 1296 453
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3474 1765 418 455 424 1323 415 458 421 451 418 456 423 422 447 454 415 458 421 452 417 456 423 450 419 454 425 448 421 1325 423 423 446 454 425 448 421 452 417 456 423 450 419 454 425 448 421 452 417 1330 418 455 424 448 421 453 416 457 422 451 418 455 424 449 420 453 416 457 422 451 418 455 424 449 420 453 416 1331 417 455 424 449 420 453 416 458 421 452 417 456 423 450 419 1327 421 424 445 1329 419
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3475 1737 446 427 452 1294 444 456 423 423 446 454 425 421 448 452 417 456 423 423 446 455 424 449 420 425 444 457 422 1297 451 421 448 453 416 457 422 451 418 428 451 449 420 426 443 457 422 424 445 1301 447 426 443 458 421 451 418 456 423 449 420 454 415 458 421 452 417 1302 446 427 452 448 421 452 417 456 423 1296 452 448 421 453 416 1303 445 455 424 449 420 453 416 430 449 1297 451 421 448 1299 449
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3476 1764 419 454 425 1321 417 456 423 450 419 455 424 449 420 453 416 457 422 451 418 455 424 449 420 453 416 458 421 1325 423 450 419 454 414 458 421 452 417 456 423 450 419 455 424 449 420 453 416 1330 418 455 424 449 420 453 416 457 422 451 418 456 423 450 419 454 415 458 421 452 417 1330 418 454 425 1321 417 1330 418 455 424 449 420 453 416 458 421 1325 423 450 419 1327 421 1325 423 450 419 1327 421
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3480 1759 424 450 419 1300 448 452 417 456 423 450 419 454 425 448 421 452 417 457 422 451 418 455 424 449 420 453 416 1331 417 455 424 449 420 454 415 458 421 452 417 456 423 450 419 454 425 448 421 1325 423 450 419 455 424 448 421 453 416 457 422 451 418 455 424 449 420 1326 422 424 445 1329 419 426 443 1331 417 1302 446 454 425 420 449 1298 450 450 419 1328 420 452 417 1330 418 1301 447 425 444 1330 418
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3477 1763 420 453 416 1330 418 455 424 449 420 453 415 458 421 452 417 456 423 450 419 454 425 448 421 452 417 456 423 1324 424 448 421 453 416 457 422 451 418 455 424 449 420 453 416 457 422 451 418 1329 419 454 415 458 421 452 417 456 423 450 419 427 452 448 421 452 417 456 423 1324 424 449 420 453 416 1330 418 1328 420 453 416 457 422 451 418 1329 419 454 415 458 421 1298 450 1323 425 448 421 1326 422
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3557 1672 516 388 488 1237 515 389 487 389 487 389 487 389 486 389 487 388 487 365 512 386 490 386 489 386 489 387 488 1263 488 389 485 391 483 392 483 394 481 397 479 398 478 421 455 398 478 421 455 1297 455 421 455 421 455 421 455 421 455 421 455 421 455 421 455 421 455 1298 454 421 455 1298 454 1298 454 1298 454 1298 454 421 455 422 454 1298 454 422 454 1298 454 1299 453 1299 453 1298 454 422 454 1298 454 74664 3522 1735 454 422 454 1299 453 422 454 422 454 422 454 422 454 422 454 422 454 422 454 422 454 422 454 422 454 422 454 1299 453 422 454 422 454 422 454 422 454 422 454 422 454 422 454 422 454 422 454 1299 453 422 454 422 454 423 453 423 453 423 453 422 454 423 453 423 453 1299 453 423 453 1299 453 1299 453 1300 452 1299 453 423 453 423 453 1300 452 423 453 1300 452 1300 452 1300 452 1300 452 423 453 1300 452 74665 3522 1735 453 422 454 1299 453 422 454 422 454 422 454 422 454 422 454 422 453 422 454 422 454 422 454 422 454 422 454 1299 453 422 454 422 454 422 454 422 454 422 454 422 454 422 454 422 454 423 453 1299 453 423 453 422 454 422 454 422 454 422 454 423 453 423 453 423 453 1299 453 423 453 1299 453 1299 453 1299 453 1299 453 423 453 423 453 1299 453 423 453 1299 453 1299 453 1299 453 1300 452 423 453 1299 453 74662 3527 1705 482 394 482 1270 482 394 482 393 483 394 482 393 483 393 483 393 483 393 483 393 483 394 482 393 483 394 482 1294 458 418 458 417 459 417 459 418 458 418 458 418 458 418 458 418 458 418 458 1295 457 419 456 419 457 419 457 419 457 419 457 419 457 419 457 419 457 1296 456 419 457 1296 456 1297 455 1297 455 1299 453 446 430 446 430 1323 429 446 430 1323 429 1323 429 1323 429 1323 429 446 430 1323 429
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3512 1685 500 409 467 1256 496 409 467 409 466 410 466 410 466 409 467 410 466 410 466 410 495 381 495 380 522 353 493 1256 469 407 494 381 495 382 493 383 492 384 491 386 489 413 462 414 461 415 460 1291 461 415 461 415 461 415 461 415 461 415 461 415 461 415 461 415 461 415 461 1292 460 415 461 415 461 1292 460 1292 460 415 461 415 461 415 461 1292 460 416 460 415 461 1292 460 1292 460 415 461 1292 460 74573 3531 1726 460 416 460 1292 460 416 460 416 460 416 460 392 484 415 460 416 460 416 460 393 483 393 483 392 484 393 483 1268 484 392 484 392 484 392 484 392 484 392 484 392 484 392 484 392 484 392 484 1268 484 392 484 392 484 392 484 392 484 392 484 392 484 392 484 392 484 392 484 1268 484 392 484 391 485 1268 484 1268 484 392 484 392 484 392 484 1292 460 392 484 392 484 1269 483 1269 483 392 484 1292 460
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3515 1718 468 411 466 1285 468 411 465 410 466 410 466 410 466 437 465 412 464 412 463 414 461 416 460 417 459 417 460 1295 458 417 460 417 459 417 459 417 460 417 459 417 460 417 460 417 459 417 460 1294 459 417 460 417 460 417 460 417 460 417 460 417 459 417 460 417 459 1295 459 417 460 1295 458 1295 459 1295 458 1295 458 418 459 418 459 1295 459 418 459 1295 459 1296 457 1296 458 1296 458 418 459 1296 457 74712 3536 1727 459 418 459 1295 458 418 459 417 460 417 460 417 459 417 460 417 459 417 460 417 459 417 459 417 460 417 460 1295 458 418 459 418 458 417 460 418 458 418 458 418 458 418 459 418 459 418 458 1296 457 419 457 419 458 418 459 418 458 418 458 419 458 418 458 418 458 1296 457 419 458 1297 457 1298 455 1322 431 1322 431 421 456 420 457 1322 431 421 456 1322 431 1322 431 1323 430 1323 430 446 431 1322 431 74712 3536 1727 458 418 459 1295 458 418 459 418 458 418 459 418 459 417 460 417 460 417 460 417 460 417 460 417 460 417 460 1294 459 418 459 417 460 417 459 418 459 418 459 418 458 418 459 418 458 418 459 1295 458 418 458 418 459 418 459 418 459 417 460 418 459 418 458 418 458 1296 458 418 458 1296 457 1296 458 1297 456 1297 456 420 457 419 458 1296 458 420 457 1297 456 1297 457 1297 456 1297 456 421 456 1297 456 74713 3534 1729 458 418 459 1295 459 417 459 417 459 418 458 418 458 418 458 418 459 418 458 418 459 418 459 418 458 418 459 1295 459 417 459 418 459 417 459 418 459 418 458 418 459 418 458 418 458 418 459 1295 459 418 459 418 459 418 459 418 458 418 459 418 459 418 458 418 459 1295 459 418 458 1295 459 1294 459 1295 459 1295 459 417 459 418 459 1295 459 417 459 1295 459 1295 459 1295 458 1295 459 417 459 1295 458 74711 3534 1728 459 417 459 1294 460 417 459 417 459 418 459 417 459 418 458 418 459 418 458 418 458 418 459 418 458 418 459 1295 459 418 458 418 459 418 458 418 458 418 459 418 459 418 459 418 458 418 458 1295 459 418 458 418 459 418 458 418 458 418 458 418 458 419 458 418 458 1296 458 418 458 1295 458 1296 458 1295 459 1295 459 418 458 419 457 1296 458 418 458 1296 458 1295 458 1296 458 1296 458 418 458 1296 457 74711 3534 1729 458 417 459 1295 459 417 459 417 459 417 459 418 459 418 459 418 458 418 459 418 458 418 459 418 459 418 458 1295 459 418 458 418 458 418 459 418 458 418 459 418 459 418 458 418 458 419 458 1295 458 418 459 418 458 418 459 418 458 418 458 419 458 418 459 419 457 1296 458 418 458 1296 458 1295 459 1295 459 1295 458 418 459 418 458 1296 458 418 458 1296 457 1296 458 1296 457 1296 458 419 458 1296 457 74711 3534 1729 459 418 458 1295 459 418 458 418 459 418 458 418 458 418 458 418 459 418 458 418 459 418 458 419 458 419 457 1296 458 419 457 419 458 419 458 419 458 419 458 419 457 419 458 419 457 419 458 1296 458 419 457 419 457 420 456 420 456 420 457 420 457 420 456 420 457 1297 457 419 457 1296 458 1296 458 1296 457 1296 458 419 457 419 457 1296 458 419 457 1297 457 1297 457 1297 456 1297 457 420 456 1298 456
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3545 1720 468 412 494 1256 497 381 493 384 465 410 493 384 492 411 464 412 463 413 462 415 460 417 459 418 458 418 458 1295 458 418 459 418 459 418 459 418 458 418 458 419 458 418 458 418 459 418 458 1296 458 418 458 418 458 419 458 419 457 419 457 419 458 419 458 419 458 419 457 1296 457 419 458 419 457 1296 458 1296 458 419 457 419 457 419 457 1296 458 419 458 419 457 1297 457 1296 457 420 457 1297 456 74623 3534 1729 459 418 458 1295 459 418 458 418 458 418 459 418 458 418 458 418 458 418 459 418 458 418 458 419 458 418 458 1296 458 418 459 418 458 418 458 418 459 418 459 418 458 419 457 419 458 419 457 1296 458 418 459 418 458 418 458 419 458 418 458 418 458 419 458 419 458 419 458 1295 459 418 458 418 459 1295 459 1295 458 418 458 418 458 419 457 1296 458 418 459 419 457 1296 458 1295 458 418 458 1295 459
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 228 144285 3545 1690 497 411 495 1256 496 382 465 410 466 410 493 383 493 386 489 411 464 413 462 415 460 417 459 417 459 418 459 1295 458 418 459 418 459 418 458 418 458 418 459 418 458 418 459 418 459 418 459 1295 459 418 459 418 458 418 459 418 458 418 458 418 458 419 458 418 458 419 458 419 458 418 458 419 458 419 458 1296 458 418 458 418 458 419 457 419 458 419 457 419 458 419 458 1296 457 419 457 1296 458
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3513 1720 468 411 494 1257 496 383 465 410 492 384 493 384 492 385 490 411 464 413 462 415 460 417 459 418 458 418 459 1295 459 418 458 418 458 418 458 418 459 418 458 418 459 418 458 418 459 418 458 1295 459 418 458 418 459 418 458 418 459 419 457 418 459 419 457 419 458 419 458 419 457 1296 458 419 457 1296 458 1296 457 419 457 419 458 419 457 419 458 1297 457 419 458 1297 457 1296 457 420 457 1296 457 74624 3534 1729 458 417 460 1294 460 417 459 417 459 418 458 418 459 417 459 417 459 418 459 418 458 418 458 418 459 418 459 1295 458 418 459 418 459 418 459 418 458 418 459 418 458 418 459 418 458 418 459 1295 459 418 458 418 458 418 459 418 459 418 458 418 458 418 459 418 458 418 458 418 459 1295 459 418 458 1295 459 1295 459 418 458 418 458 418 459 418 458 1295 459 418 458 1295 458 1295 459 418 458 1295 459
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3513 1720 468 411 465 1285 468 410 466 410 466 410 493 383 493 385 490 412 462 413 462 415 460 417 459 417 459 417 460 1294 459 417 459 417 459 417 459 417 460 417 459 418 459 418 459 417 459 418 458 1295 459 418 459 418 458 418 458 418 459 418 458 418 459 418 458 418 458 1295 459 418 459 418 458 418 458 419 458 1295 459 418 458 418 459 1296 457 418 458 419 457 419 458 419 458 1296 457 419 458 1296 458 74841 3534 1729 459 417 459 1294 460 417 459 417 460 417 460 417 460 417 460 417 459 417 460 417 459 417 460 417 459 417 459 1295 459 417 459 417 460 417 459 417 460 418 458 418 459 418 459 417 459 418 459 1295 458 418 459 418 458 418 459 417 460 417 459 417 459 418 458 418 459 1295 459 418 458 418 459 418 458 418 459 1295 459 418 458 418 458 1295 458 418 459 418 458 418 459 418 458 1295 459 418 458 1295 459
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3514 1720 467 412 494 1257 497 381 465 410 466 410 466 410 466 412 490 411 464 413 462 414 461 416 459 418 459 417 460 1294 460 417 460 417 459 417 459 417 459 417 460 417 460 417 459 417 459 417 459 1295 459 417 459 418 459 418 459 417 459 418 459 418 458 418 458 418 458 1295 459 418 458 1295 459 417 459 1295 459 1295 458 418 459 418 459 1294 460 417 459 1294 460 417 459 1295 459 1294 460 417 459 1295 459 74408 3533 1729 459 417 459 1294 459 418 459 418 458 417 460 418 458 418 459 418 458 418 458 418 459 418 458 418 459 418 459 1295 458 418 458 418 459 418 458 418 459 418 459 418 458 419 458 419 458 419 457 1296 458 419 457 419 458 419 457 419 458 419 457 419 457 419 457 419 458 1297 456 419 457 1297 457 419 457 1297 456 1297 457 419 457 420 457 1297 456 420 457 1297 456 420 456 1298 456 1297 456 421 455 1298 456
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3529 1712 447 431 449 1307 454 451 419 433 447 459 421 458 422 429 451 455 425 426 454 425 455 423 447 460 420 459 421 1308 453 452 428 424 446 433 447 459 421 430 450 457 423 428 452 426 454 453 427 1302 448 457 423 456 424 427 453 453 427 452 428 451 419 460 420 459 421 1308 453 453 427 1302 448 1307 454 1301 449 1306 455 451 419 461 419 1310 451 455 425 1304 446 1309 452 1304 446 1309 452 454 426 1303 447 74691 3528 1715 455 451 419 1310 451 427 453 426 454 425 455 451 419 433 447 431 449 430 450 429 451 428 452 426 454 453 427 1302 448 430 450 429 451 428 452 426 454 453 427 424 446 460 420 431 449 430 450 1307 454 452 428 423 447 460 420 431 449 457 423 429 451 455 425 454 426 1303 447 459 421 1308 453 1303 447 1309 452 1304 446 459 421 431 449 1307 454 425 455 1302 448 1307 454 1302 448 1308 453 425 455 1302 448 70427 175
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3524 1717 453 426 454 1302 448 430 450 429 451 427 453 426 454 425 455 424 446 433 447 432 448 430 450 429 451 428 452 1304 446 433 447 432 448 430 450 429 451 428 452 427 453 426 454 424 456 423 447 1310 451 428 452 427 453 425 455 424 446 433 447 432 448 431 449 429 451 428 452 427 453 1303 447 432 448 1308 453 1303 447 431 449 430 450 429 451 427 453 1304 446 432 448 1308 453 1303 447 432 448 1308 453 74692 3530 1712 447 431 449 1307 454 425 455 424 446 433 447 432 448 431 449 430 450 429 451 427 453 426 454 425 455 424 446 1311 449 429 451 428 452 427 453 425 455 424 446 433 447 432 448 431 449 430 450 1306 455 424 456 423 447 432 448 431 449 430 450 429 451 428 452 426 454 425 455 424 446 1311 450 429 451 1306 455 1301 449 429 451 428 452 427 453 426 454 1303 447 432 448 1308 453 1303 447 432 448 1309 452
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3523 1718 451 427 453 1302 448 431 449 430 450 429 451 428 452 426 454 425 455 424 456 423 447 432 448 431 449 430 450 1306 455 425 455 424 446 433 447 432 448 431 449 430 450 429 451 428 452 427 453 1303 447 432 448 431 449 430 450 429 451 428 452 427 453 425 455 424 456 1300 450 429 451 1306 455 424 446 1310 451 1305 456 423 447 433 479 1277 452 427 485 1272 447 432 479 1277 452 1303 447 431 480 1276 485 74664 3526 1715 475 403 477 1279 482 397 483 396 484 395 475 404 476 403 477 402 478 401 479 400 480 399 481 398 482 396 453 1305 477 402 478 401 448 431 449 430 450 429 451 428 452 427 453 425 455 424 456 1301 480 398 451 428 452 427 453 426 454 425 455 424 445 433 447 432 448 1309 483 395 454 1303 479 401 448 1309 452 1304 478 401 448 432 448 1308 453 427 453 1303 447 432 448 1308 453 1304 446 432 448 1309 452
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3553 1687 451 427 453 1303 447 431 449 430 450 429 451 427 484 395 454 425 455 424 446 433 447 432 448 431 449 430 450 1306 454 424 456 423 447 432 448 431 449 430 450 429 451 428 452 426 454 425 455 1301 449 430 450 429 451 427 453 426 454 425 455 424 446 433 447 432 448 430 450 429 451 428 452 427 453 426 454 1302 448 431 449 430 450 429 451 427 453 426 454 425 455 424 456 1300 450 429 451 1305 456 74679 3520 1721 448 430 450 1306 454 424 446 433 447 432 448 430 450 429 451 428 452 427 453 425 455 424 456 423 447 432 448 1308 453 426 454 425 455 424 446 433 447 432 448 430 450 429 451 428 452 427 453 1303 447 431 449 430 450 429 451 428 452 426 454 425 455 423 447 433 447 431 449 430 450 429 451 428 452 426 454 1303 447 432 448 431 449 429 451 428 452 427 453 426 454 425 455 1301 449 430 450 1306 454 70419 174
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3524 1717 452 453 427 1301 449 456 424 428 452 454 426 453 427 452 428 423 447 460 420 459 421 457 423 456 424 455 425 1304 446 460 420 458 422 457 423 456 424 455 425 453 427 452 428 451 419 461 419 1310 450 455 425 454 426 453 427 452 428 450 419 460 420 459 421 458 422 1307 454 452 428 451 418 460 420 459 421 1309 452 454 426 453 427 1302 448 458 422 457 423 456 424 455 425 1304 446 460 420 1309 452 74701 3528 1715 454 451 419 1310 451 456 424 455 425 454 426 453 427 452 428 451 419 460 420 459 421 458 422 457 423 456 424 1305 456 451 419 460 420 459 421 458 422 457 423 456 424 455 425 454 426 453 427 1302 448 431 449 457 423 456 424 455 425 454 426 453 427 452 428 451 419 1311 450 456 424 455 425 454 426 453 427 1303 447 459 421 458 422 1307 454 452 428 452 428 451 419 460 420 1310 451 455 425 1304 446
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3525 1716 453 452 428 1300 450 456 424 454 426 425 455 424 456 451 419 432 448 431 449 430 450 456 424 455 425 454 426 1303 447 459 421 458 422 429 451 455 425 427 453 453 427 452 428 423 457 450 420 1309 452 455 425 426 454 452 428 451 429 450 430 449 421 458 422 457 423 456 424 1305 456 450 430 449 431 1299 451 1304 446 459 421 458 422 457 423 1306 455 451 429 450 430 1300 450 1306 455 450 430 1300 450 74695 3530 1711 448 458 422 1307 454 452 428 451 429 449 421 459 421 458 422 456 424 455 425 454 426 453 427 452 428 451 429 1300 450 456 424 427 453 453 427 452 428 451 429 450 420 459 421 458 422 457 423 1306 455 424 456 423 447 459 421 458 422 457 423 456 424 455 425 454 426 453 427 1302 448 458 422 429 451 1306 455 1301 449 457 423 428 452 455 425 1304 446 460 420 431 449 1308 453 1303 447 459 421 1308 453
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3398 1660 464 419 435 1253 434 423 441 417 436 420 434 424 440 417 437 421 433 424 440 417 437 421 433 425 439 418 436 1252 435 422 432 427 437 420 434 424 440 417 436 421 433 424 440 417 437 421 433 1255 432 426 438 419 435 423 431 426 438 420 434 423 431 427 437 421 433 1228 459 425 439 1249 438 1250 437 1225 462 1226 461 422 432 426 438 1224 463 421 433 1229 458 1230 457 1257 440 1221 466 392 462 1224 463 72803 3397 1661 463 421 433 1255 432 426 438 419 435 423 431 427 437 420 434 424 440 417 437 421 433 398 466 418 436 422 432 1256 431 427 437 421 433 424 440 418 436 422 432 425 439 419 435 423 431 426 438 1250 437 421 433 425 439 418 436 422 432 426 438 419 435 423 431 428 436 1252 435 422 432 1257 440 1248 439 1249 438 1224 463 395 458 425 439 1249 438 419 435 1227 460 1255 432 1256 431 1231 466 417 437 1249 438 72803 3398 1687 437 420 434 1255 432 425 439 419 434 397 457 427 437 420 434 424 440 417 436 421 432 425 439 418 436 422 432 1257 440 417 437 422 431 426 438 393 461 423 431 427 437 420 434 424 440 417 436 1225 462 422 432 426 438 419 435 423 431 426 438 420 434 424 440 418 436 1252 435 422 432 1257 440 1247 440 1248 439 1223 464 420 434 424 440 1222 465 418 435 1253 434 1254 433 1229 458 1256 431 427 437 1248 439 72798 3403 1682 432 426 438 1250 437 420 434 424 440 417 436 421 433 425 439 418 436 422 432 425 439 419 435 422 432 426 438 1250 437 420 434 425 439 418 436 422 432 425 439 419 435 422 432 426 438 419 434 1254 433 424 440 417 437 421 432 425 439 418 436 422 432 426 438 420 434 1254 433 425 439 1222 465 1223 464 1224 463 1252 435 422 432 426 438 1250 437 421 433 1255 432 1256 431 1257 440 1221 466 419 435 1250 437 72798 3402 1683 431 426 438 1250 437 421 433 425 439 418 436 422 432 425 439 419 435 423 431 426 438 420 434 423 431 427 437 1251 436 421 433 426 438 419 435 423 431 427 437 420 434 424 440 417 436 421 433 1255 432 425 439 419 435 422 432 426 438 419 435 423 431 427 437 421 433 1255 432 426 438 1250 437 1251 436 1252 435 1254 433 424 440 418 436 1252 435 423 431 1257 440 1247 440 1249 438 1250 437 421 433 1226 461
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 2737 825 494 832 494 390 492 392 1352 1328 461 450 405 450 435 477 297 587 296 644 295 92395 2734 829 491 836 490 394 491 419 1286 1395 296 587 378 1474 239
+#
+name: POWER
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 2000 500 1000 500 2000 500 10000
+#
+name: CH+
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 2000 500 1000 500 10000
+#
+name: CH-
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 2000 500 2000 500 10000
+#
+name: VOL+
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 1000 500 10000
+#
+name: VOL-
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 1000 500 2000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 2000 500 10000
+#
+name: MUTE
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 2000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 1000 500 10000
+#
+name: POWER_ON
+name: POWER_ON (3A)
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+#
+name: POWER_ON
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 2000 500 2000 500 1000 500 2000 500 1000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 1000 500 1000 500 2000 500 1000 500 2000 500 10000
+#
+name: POWER_OFF
+name: POWER_OFF (3B)
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+#
+name: POWER_OFF
+type: raw
+frequency: 56000
+duty_cycle: 0.330000
+data: 4000 4000 500 2000 500 2000 500 2000 500 2000 500 1000 500 1000 500 2000 500 2000 500 2000 500 1000 500 2000 500 2000 500 1000 500 1000 500 1000 500 1000 500 2000 500 2000 500 1000 500 1000 500 1000 500 2000 500 1000 500 1000 500 10000
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 182 7827 172 2332 177 2328 181 2323 176 2330 179 1309 175 1331 174 2331 178 1328 177 2328 181 1307 177 2327 182 1325 180 1326 179 1309 176 1331 174 1332 173 2333 176 2310 178 1328 177 2328 181 1325 180 2306 182 1325 180 2325 174 8340 183 7825 175 2330 179 2326 173 2333 176 2310 178 1328 177 1329 176 2329 180 1308 176 2329 180 1326 179 2326 173 1334 182 1306 179 1328 177 1329 176 1312 183 2322 177 2329 180 1326 179 2325 174 1315 180 2326 173 1333 183 2323 176 8339 183 7824 175 2330 179 2307 181 2324 175 2331 178 1328 177 1330 175 2311 177 1329 176 2329 180 1326 179 2327 182 1305 179 1328 177 1328 177 1311 173 1334 182 2323 176 2330 179 1326 571 1916 180 1327 178 2325 587 920 575 1930 579
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4096 3909 587 1917 592 1912 587 1917 540 1964 545 942 584 922 594 1910 589 1916 541 1963 546 1958 572 1913 586 1919 590 915 590 915 549 939 587 919 586 1918 591 1912 545 962 575 913 592 913 582 924 540 948 589 917 588 7923 4040 3964 584 1919 538 1966 543 1943 587 1917 592 914 591 915 538 1965 544 1942 588 1916 593 1911 588 1916 593 1910 589 918 546 942 595 911 594 912 541 1963 546 1939 591 915 590 916 589 916 548 940 586 920 585 920 543 7950 4097 3926 549 1955 575 1910 589 1915 594 1910 589 917 536 952 595 1909 590 1914 595 1909 590 1914 585 1920 537 1967 542 945 592 914 591 915 538 968 569 1916 593 1912 587 919 586 919 545 944 593 913 592 913 540 966 571
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4567 4475 732 1555 703 1608 705 1608 705 478 676 460 669 507 651 506 649 508 621 1640 672 1616 673 1639 674 508 648 508 648 508 647 485 644 511 647 508 648 1639 674 508 649 508 647 485 645 511 647 508 648 509 647 1639 674 509 647 1613 673 1641 673 1640 673 1640 672 1617 671 1640 673 48544 4566 4505 648 1639 674 1639 674 1639 647 510 648 508 648 509 648 508 648 508 648 1639 647 1642 673 1639 674 508 648 509 648 508 647 485 645 511 647 509 647 1640 673 509 647 509 646 486 643 511 647 509 647 509 647 1640 673 509 647 1615 672 1640 673 1640 673
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4583 4485 687 1600 690 1623 716 1596 690 493 660 470 634 521 662 495 659 497 658 1629 684 1630 631 1657 682 500 656 500 656 500 656 500 656 475 653 1633 682 1631 682 1631 682 500 629 502 630 526 656 500 656 500 656 500 656 500 657 500 630 1632 682 1631 682 1631 682 1631 654 1633 682 48536 4553 4518 656 1632 682 1631 682 1631 682 500 630 502 629 526 656 500 656 501 656 1631 682 1631 631 1657 656 526 655 501 655 501 655 501 655 501 629 1634 680 1632 681 1632 681 501 629 502 629 527 654 501 655
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4551 4491 683 1630 658 1628 685 1628 685 500 654 499 631 525 657 499 656 500 656 1632 681 1632 652 1635 681 501 655 501 655 501 655 501 655 501 628 1634 680 1632 681 501 655 1632 680 479 626 528 628 528 654 502 654 502 654 502 655 1632 654 504 627 1659 680 1632 681 1633 654 1634 679 48515 4596 4498 654 1634 653 1633 654 1633 628 529 653 502 654 502 654 502 654 502 654 1633 653 1635 679 1633 680 503 653 503 653 479 651 504 627 528 654 1633 680 1633 680 503 627 1634 679 503 653 503 653 503 653 503 653 503 627 504 627 1660 679 503 653 1634 679 1634 652 1636 678 1634 679
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1253 1157 464 560 465 858 460 2364 460 563 462 1462 463 1761 467 1156 465 1159 462 2661 467 1456 469 1155 466 86886 331 925 330 373 328 652 331
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1224 1186 467 556 437 887 441 2382 463 560 433 1490 466 1757 461 1163 458 566 438 2686 463 1460 465 2359 434 86319 301 953 302 402 330 649 334
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: e6 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0b 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0f 00 00 00
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4499 4472 566 1662 565 1664 563 1665 562 565 538 564 539 562 541 560 543 558 545 1683 544 1658 569 1686 541 559 544 557 536 565 538 563 540 561 542 559 544 1684 543 558 545 556 537 564 539 562 541 560 543 558 545 1684 543 558 545 1683 544 1684 543 1660 567 1688 539 1689 538 1664 563 565 538 563 540 561 542 559 544 42973 4495 4472 566 1662 565 1663 564 1664 563 564 539 562 541 560 543 558 545 556 537 1691 536 1691 536 1666 572 555 538 564 539 561 542 559 544 557 536 565 538 1689 538 563 540 560 543 558 545 555 538 563 540 561 542 1686 541 559 544 1684 543 1684 543 1658 569 1685 542 1686 541 1660 567 559 544 557 536 565 538 563 540 42959 4499 4466 562 1666 572 1656 571 1656 571 556 537 564 539 562 541 559 544 556 537 1691 536 1690 537 1664 563 564 539 562 541 560 543 557 536 565 538 563 540 1688 539 561 542 559 544 556 537 564 539 562 541 560 543 1684 543 558 545 1682 545 1683 544 1657 570 1684 543 1659 568 1659 568 559 544 557 536 565 538 563 540 42955 4503 4463 565 1663 564 1663 564 1664 563 563 540 561 542 558 545 556 537 564 539 1688 539 1688 539 1662 565 562 541 559 544 557 536 565 538 563 540 560 543 1685 542 559 544 556 537 564 539 562 541 559 544 557 536 1692 535 565 538 1690 537 1690 537 1664 563 1691 536 1666 572 1656 571 556 537 564 539 562 541 559 544
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4507 4464 564 1690 537 1691 536 1666 572 555 538 538 565 562 541 559 544 557 536 1693 545 1656 571 1657 570 557 536 565 538 563 540 561 542 558 545 1683 544 1657 570 1684 543 558 545 555 538 563 540 561 542 559 544 557 536 565 538 563 540 1688 539 1662 565 1663 564 1663 564 1664 563 564 539 536 567 560 543 558 545 42962 4496 4470 568 1686 541 1660 567 1661 566 560 543 558 545 556 537 564 539 561 542 1686 541 1660 567 1687 540 534 569 558 545 555 538 563 540 561 542 1686 541 1686 541 1686 541 533 570 557 536 565 538 563 540 560 543 558 545 555 538 563 540 1661 566 1687 540 1661 566 1661 566 1662 565 561 542 533 570 557 536 564 539
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4506 4465 563 1692 546 1658 569 1659 568 559 544 557 536 565 538 563 540 561 542 1687 540 1662 565 1689 538 563 540 561 542 560 543 558 545 556 537 1665 562 1693 545 530 563 1692 546 555 538 564 539 562 541 560 543 558 545 556 537 1665 562 539 564 1690 537 1691 536 1692 535 1693 545 556 537 539 564 563 540 561 542 42974 4505 4464 564 1690 537 1665 562 1667 571 530 563 565 538 563 540 561 542 559 544 1684 543 1659 568 1661 566 561 542 559 544 557 536 565 538 563 540 1663 564 1690 537 563 540 1662 565 559 558 545 556 537 564 539 562 541 1688 539 561 542 1687 540 1688 539 1688 539 1663 564 563 540 561 542 559 544 557 536
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4498 4471 567 1661 566 1662 565 1664 563 564 539 563 540 561 542 559 544 557 536 1693 545 1684 543 1659 568 559 544 557 536 566 537 564 539 562 541 560 543 1686 541 560 543 558 545 1684 543 558 545 556 537 564 539 1690 537 564 539 1689 538 1690 537 564 539 1689 538 1665 562 1666 572 556 537 564 539 563 540 560 543 42964 4504 4464 564 1690 537 1665 562 1666 572 555 538 564 539 562 541 560 543 558 545 1683 544 1684 543 1659 568 558 545 556 537 565 538 563 540 560 543 558 545 1683 544 556 537 565 538 1690 537 564 539 561 542 560 543 1685 542 558 545 1683 544 1657 570 557 536 1692 546 1683 544 1684 543 557 536 566 537 563 540 561 542
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4506 4464 564 1691 536 1692 546 1656 571 556 537 564 539 562 541 560 543 558 545 1683 544 1684 543 1685 542 558 545 556 537 565 538 563 540 561 542 558 545 556 537 564 539 562 541 1687 540 561 542 558 545 556 537 1691 536 1665 562 1692 546 1656 571 556 537 1691 536 1692 546 1683 544 557 536 565 538 563 540 560 543 42966 4502 4466 562 1693 545 1683 544 1684 543 558 545 556 537 564 539 561 542 559 544 1684 543 1684 543 1658 569 558 545 530 563 564 539 562 541 560 543 558 535 566 537 564 539 562 541 1687 540 560 543 558 545 555 538 1691 536 1665 562 1693 545 1657 570 557 536 1666 572 1683 544 1658 569 557 546 529 564 563 540 561 542
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4497 4474 564 1690 537 1691 536 1666 572 556 537 564 539 562 541 560 543 558 545 1683 544 1683 544 1684 543 532 571 556 537 564 539 562 541 560 543 1659 568 1686 541 1661 566 1662 565 562 541 560 543 558 535 565 538 563 540 561 542 558 545 556 537 1665 562 1666 572 1656 571 1684 543 557 546 555 538 564 539 562 541 42966 4502 4466 562 1692 535 1693 545 1657 570 556 537 565 538 562 541 560 543 543 1656 571 1656 571 1657 570 557 536 565 538 563 540 560 543 558 545 1683 544 1683 544 1657 570 1684 543 531 562 565 538 563 540 560 543 558 545 556 537 564 539 561 542 1660 567 1686 541 1687 540 1662 565 562 541 533 570 557 536 565 538
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 195 1833 300 766 280 760 275 790 276 737 309 731 304 1801 301 1804 309 731 304 1801 270 795 282 758 277 762 273 1832 270 769 246 45851 326 1780 302 739 307 785 282 732 303 736 310 1795 307 732 303 763 303 1775 307 733 334 1798 273 1832 270 1810 251 814 273 1780 281 43762 302 1804 309 758 277 737 330 762 284 730 305 734 301 1803 310 1796 306 733 302 1829 273 767 279 734 301 791 275 1804 278 762 253 45870 307 1798 304 763 272 767 279 787 279 760 275 1829 284 730 305 734 301 1804 309 757 278 1827 275 1804 278 1828 274 765 270 1835 278 43740 303 1776 306 787 279 760 275 765 281 759 307 758 277 1775 307 1799 303 736 299 1832 281 759 276 763 304 736 299 1832 281 733 302 45820 306 1800 302 764 282 758 277 788 278 762 284 1821 281 732 303 736 310 1796 307 733 302 1829 273 1806 276 1830 272 767 268 1837 245 43772 302 1778 304 789 277 762 284 756 279 786 249 765 301 1777 336 1770 301 764 282 1824 278 761 274 765 301 738 308 1824 278 761 274
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 254 1721 360 681 354 738 308 706 329 711 355 1774 307 1772 361 1744 327 687 359 1772 299 742 335 705 330 736 279 1825 298 742 283 44773 384 1721 360 707 308 707 359 733 302 711 335 705 361 704 331 708 338 1766 336 704 331 1773 329 1776 306 1773 360 681 323 1782 331 44726 411 1722 328 686 360 733 302 711 335 705 361 1742 329 1803 330 1749 332 708 327 1777 335 705 330 710 325 741 274 1830 303 737 278 44778 359 1747 355 712 303 711 355 711 335 705 330 709 337 703 363 703 332 1770 332 709 337 1767 335 1771 300 1752 360 733 302 1776 326 44731 355 1751 330 711 355 737 309 705 330 710 336 1793 309 1771 331 1774 307 706 360 1771 300 740 326 714 332 735 280 1798 325 741 274
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 277 1806 274 775 281 776 279 770 275 774 281 768 277 1814 277 1806 274 775 280 1803 277 780 276 773 282 766 279 1831 249 781 274 45962 281 1803 277 771 274 783 273 802 253 770 275 1834 257 801 255 768 277 1807 273 775 280 1811 280 1804 276 1806 274 774 282 1811 280 43887 275 1809 282 767 278 779 276 799 256 766 279 771 274 1843 248 1810 281 767 278 1806 274 782 274 776 279 796 249 1807 273 784 282 45962 279 1804 276 772 273 784 282 768 277 798 247 1836 255 802 253 796 249 1808 283 766 279 1813 278 1805 275 1808 272 776 279 1813 278 43890 282 1801 279 769 276 781 274 775 280 769 276 773 283 1834 257 1801 279 769 276 1808 272 784 282 767 278 772 273 1810 281 776 279
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 282 1801 280 769 276 781 275 774 282 768 277 1805 276 781 275 775 281 769 276 1832 249 809 247 776 280 770 275 1834 247 784 282 47004 273 1811 280 768 277 780 276 773 283 767 278 771 274 1816 275 1809 272 1811 280 768 277 1815 276 1807 274 1809 282 767 278 1813 278 42841 284 1799 282 768 277 780 276 774 282 767 278 1805 276 781 275 774 282 768 277 1806 275 782 274 775 281 769 276 1807 274 783 283
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 273 1810 281 768 277 780 276 799 257 767 278 797 248 1816 275 774 282 768 277 1806 275 808 248 801 255 795 250 1807 274 809 247 46989 278 1805 276 799 246 784 282 767 278 798 247 1835 256 775 281 1803 278 1806 275 773 283 1809 272 1811 280 1803 278 771 274 1817 274 42868 278 1806 275 799 257 775 281 768 277 798 247 776 280 1811 280 770 275 773 283 1801 280 777 279 771 274 801 255 1802 279 778 278
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 282 1801 280 769 276 781 275 775 281 768 277 772 273 784 282 1801 280 770 275 1807 274 784 282 767 278 771 274 1809 282 775 281 47005 282 1801 280 770 275 782 274 776 280 769 276 1807 274 1817 274 775 280 1803 278 771 274 1817 274 1809 282 1801 280 770 275 1815 276 42841 273 1811 280 769 276 781 275 774 282 768 277 772 273 783 273 1811 280 794 251 1806 275 782 274 776 280 769 276 1808 273 783 283
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 277 1805 276 799 246 785 281 768 277 798 247 1810 281 775 281 1804 277 771 274 1810 281 801 255 795 250 772 273 1811 280 776 280 45957 274 1809 272 777 279 778 278 772 273 776 280 769 276 1815 276 799 246 1811 280 769 276 1815 276 1807 274 1809 282 767 278 1813 278 43890 280 1803 278 797 248 783 273 776 280 796 249 1834 247 784 282 1802 279 796 249 1808 273 783 283 793 252 770 275 1808 273 784 282
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 281 1803 278 771 274 782 274 775 281 769 276 1807 274 1817 274 1835 256 766 280 1804 277 780 276 773 283 767 278 1831 250 780 276 44910 276 1835 256 766 280 777 279 771 275 774 282 767 278 779 277 773 283 1800 281 768 277 1814 277 1806 275 1808 283 766 279 1811 280 44937 280 1803 278 771 274 783 283 766 279 770 275 1808 273 1819 272 1811 280 768 277 1807 274 782 274 776 280 769 276 1833 248 784 282
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8958 4449 510 4475 515 4444 515 2213 508 4477 513 2215 516 2212 509 2219 512 2217 514 2214 517 2211 540 2214 517 2211 510 4449 510 2218 513 4472 507 2220 511 30572 8960 2218 513 87698 8966 2211 510 87701 8963 2214 568
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8956 4451 508 2220 511 2217 514 4470 510 4449 510 2218 544 2211 510 2218 513 2215 516 2212 509 2220 511 2217 514 2214 517 2211 510 2245 517 4441 508 2220 511 35049 8961 2215 516 87696 8959 2217 514 87698 8956 2220 511 87701 8964 2213 508
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8958 4449 510 4475 515 4444 515 2213 508 4477 513 2215 516 2212 509 2219 512 2217 514 2214 517 2211 540 2214 517 2211 510 4449 510 2218 513 4472 507 2220 511 30572 8960 2218 513 87698 8966 2211 510 87701 8963 2214 568
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8956 4451 508 2220 511 2217 514 4470 510 4449 510 2218 544 2211 510 2218 513 2215 516 2212 509 2220 511 2217 514 2214 517 2211 510 2245 517 4441 508 2220 511 35049 8961 2215 516 87696 8959 2217 514 87698 8956 2220 511 87701 8964 2213 508
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4009 3986 511 1987 517 1981 513 1985 519 1979 515 1009 493 1006 486 1986 518 1006 486 1987 517 1007 485 1987 517 1007 485 1014 488 1010 492 1007 485 1013 489 1984 510 1988 516 1008 494 1978 516 1008 494 1979 515 983 519 1979 515 8184 4015 3980 518 1980 514 1985 519 1979 515 1983 511 1013 489 1010 492 1980 514 1010 492 1980 514 1011 491 1981 513 1011 491 1007 485 1014 488 1010 492 1007 485 1987 517 1981 513 1012 490 1982 512 986 516 1983 511 1013 489 1983 511 8070 4015 3980 518 1981 513 1985 519 1979 515 1983 511 1014 488 1010 492 1980 514 1011 491 1981 513 1011 491 1981 513 1012 490 1008 494 1005 487 1011 491 1008 484 1988 516 1982 512 1012 490 1983 511 1013 489 1983 511 1014 488 1984 510
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4009 3986 511 1988 516 1982 511 1987 517 1981 512 1012 490 1009 493 1979 514 1010 492 1981 512 1986 518 1980 513 1985 519 979 513 1012 490 1009 493 1006 486 1986 518 1981 512 985 517 1982 511 987 515 1010 492 1006 486 1013 489 8184 4013 3982 515 1983 510 1988 516 1982 511 1987 517 1007 485 1014 488 1985 519 1005 487 1986 518 1981 512 1986 518 1980 513 1011 491 1008 494 1004 488 1011 491 1982 511 1987 517 1007 485 1988 516 1009 493 1005 487 1012 490 1009 493
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4012 3982 514 1984 519 1979 514 1984 519 1979 514 983 519 980 512 1988 516 982 520 1979 514 1984 519 1978 515 983 519 980 511 987 515 983 519 980 511 1988 516 1982 511 987 515 1983 521 978 514 985 517 981 521 1978 515
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4012 3983 513 1985 518 1980 513 1985 518 1980 513 984 518 981 521 1978 515 983 519 1980 513 1984 520 979 512 1986 517 1007 484 1014 488 1011 491 1007 495 1978 515 1983 510 1014 488 1984 519 979 512 1012 490 1983 510 1014 488 8185 4011 3984 512 1986 518 1980 513 1985 518 1980 513 1011 491 1007 485 1988 516 982 520 1979 514 1984 519 1005 486 1986 517 981 510 1014 488 985 517 1007 495 1978 515 1983 510 1014 488 1985 518 1006 486 1013 489 1983 520 1004 487
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4016 3980 516 1982 511 1987 516 1982 511 1987 516 982 520 1004 487 1986 517 980 511 1987 516 1982 511 1013 489 1010 492 1006 486 1013 489 984 518 1007 485 1988 516 1982 511 987 515 1984 519 1005 486 985 517 1982 511 1987 517 8182 4014 3981 515 1983 520 1978 515 1983 510 1988 515 982 520 979 512 1987 517 981 510 1988 516 1983 510 987 515 1010 492 981 521 978 513 985 517 981 521 1978 515 1983 520 978 514 1985 518 979 513 986 516 1983 520 1978 515
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 328 605 321 283 643 290 313 589 316 287 639 596 642 589 316 285 318 285 641 591 637 294 309 587 328
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 331 601 314 289 647 285 308 595 320 282 644 591 647 584 321 282 644 587 318 285 641 290 313 583 332
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 330 632 294 281 645 288 315 585 320 284 642 593 645 585 320 284 642 589 649 583 644 586 329
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 333 600 315 288 638 294 309 594 321 281 645 591 636 595 643 589 638 592 313 290 646 585 330
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 334 628 287 289 647 285 308 593 322 307 619 589 649 582 323 280 646 586 641 589 316 287 639 89967 331 602 313 290 646 286 307 595 320 283 643 591 647 584 321 282 644 588 639 591 314 288 638
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 332 601 314 290 646 286 307 594 321 282 644 590 648 582 323 281 645 586 641 290 313 583 644
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3997 3984 515 1987 518 1984 521 1980 514 2013 492 982 521 980 512 1989 516 984 519 1983 522 979 513 1987 518 983 520 981 522 979 513 1014 489 1012 491 1984 521 1981 513 987 516 1986 519 981 522 1980 515 986 517 1985 520 9037 4000 3982 516 1984 521 1981 513 1988 517 1984 521 979 513 988 515 1986 519 982 521 1981 513 987 516 1985 520 981 522 979 513 988 515 986 517 984 519 1983 511 1989 516 985 518 1983 522 979 513 1988 517 984 519 1983 522 9036 3991 3990 519 1983 511 1990 515 1986 519 1982 512 988 515 1012 491 1985 520 981 522 1979 515 985 518 1984 521 980 512 988 515 986 517 984 519 983 520 1981 513 1988 517 983 520 1982 512 988 515 1986 519 982 521 1981 513
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3993 3987 521 1980 514 1987 517 1984 520 1981 513 987 515 985 517 1984 520 980 522 1979 515 1987 517 1983 521 1980 514 986 516 984 518 982 520 980 512 1989 515 1986 518 982 520 1981 513 987 515 985 517 983 519 982 520 9036 3999 3981 517 1984 520 1981 513 1988 516 1985 519 980 512 989 513 1987 517 983 519 1982 512 1990 514 1986 518 1982 512 988 514 987 515 985 517 983 519 1981 513 1988 516 984 518 1983 521 979 513 987 515 985 517 983 519 9037 4019 3962 515 1986 518 1982 512 1990 514 1986 518 982 520 980 512 1989 515 985 517 1984 520 1981 513 1989 515 1985 571 929 521 979 513 988 514 986 516 1985 519 1981 565 936 514 1986 570 930 520 981 521 979 513 988 515
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3999 3982 516 1985 519 1982 512 1990 514 1986 518 982 520 980 512 1989 515 986 516 2010 494 1981 513 1989 515 984 518 982 520 981 521 979 513 1014 488 1986 518 1983 511 989 513 1988 516 984 518 982 520 980 512 1989 515 9040 4026 3954 512 1989 515 1985 519 1982 512 1989 515 985 517 983 519 1981 513 988 514 1987 517 1983 521 1980 514 986 516 984 518 982 520 980 522 979 513 1987 517 1985 519 980 522 1980 514 985 517 984 518 982 520 2007 487 9043 4023 3956 521 1980 514 1987 517 1984 520 1980 514 986 516 984 518 1982 522 979 513 1988 516 1985 519 1981 513 987 515 985 517 983 519 982 520 980 512 1989 515 1986 518 981 521 1980 514 986 516 985 517 983 519 1981 513
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3997 3983 515 1987 517 1983 521 1980 514 1987 517 983 519 981 521 1980 514 986 516 1985 519 2007 487 987 515 1986 518 982 520 980 512 989 513 987 515 1985 519 1982 512 988 514 1987 517 983 519 981 521 1979 515 986 516 9040 3994 3985 512 1989 515 1985 519 1982 512 1989 515 984 518 982 520 1981 513 987 515 1986 518 1983 521 979 513 2014 490 984 518 982 520 980 522 979 513 1987 517 1984 520 980 512 1989 515 985 517 983 519 1981 513 988 514 9042 3992 3987 521 1980 514 1987 517 1984 520 1981 513 987 515 985 517 1983 521 980 512 1989 515 1986 518 981 521 1980 514 986 516 984 518 983 519 981 521 1979 515 1987 517 982 520 1981 513 987 515 985 517 1983 521 980 512
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3994 3986 512 1989 515 1986 518 1982 512 1989 515 985 517 983 519 2008 486 988 514 1987 517 1983 521 979 513 987 515 986 516 984 518 982 520 980 512 1988 516 1985 519 981 521 1980 514 986 516 984 518 2009 485 1990 514 9041 3994 3986 511 1989 515 1985 519 1982 512 1989 515 984 518 982 520 1981 513 987 515 1986 518 1982 512 988 514 986 516 984 518 983 519 981 521 979 513 1987 517 1984 520 980 512 1989 515 984 518 982 520 2007 487 1988 516 9038 4028 3952 514 1986 518 1982 512 1989 515 1985 519 980 512 989 513 2013 491 983 519 1982 512 1989 515 984 519 982 520 980 522 979 513 987 515 985 517 1983 521 1980 514 986 516 1985 519 980 512 989 513 2013 491 1984 520
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3999 3980 517 1984 520 1980 513 1987 517 1983 521 979 513 987 515 1985 519 1983 511 1989 515 1986 518 1982 511 1989 515 984 518 982 520 980 512 989 513 1987 517 1983 521 979 513 988 514 986 516 984 518 982 520 980 512 9042 3991 3987 521 1980 514 1987 517 1983 521 1980 513 986 516 984 518 1982 511 1989 515 1986 518 1982 512 1989 515 1985 519 981 521 979 513 987 515 985 517 1983 521 1979 515 986 516 984 518 982 520 980 512 989 513 987 515 9038 4027 3952 514 1987 517 1983 521 1979 515 1986 518 981 521 979 513 1988 516 1985 519 1981 513 1988 516 1984 520 1980 514 986 516 984 518 982 520 980 522 1978 516 1986 518 982 520 980 512 988 514 986 516 984 518 982 520 9035 4019 3959 517 1983 521 1979 515 1986 518 1982 511 988 514 986 516 1984 520 1981 512 1988 516 1984 520 1980 513 1987 517 983 519 981 521 979 513 987 515 1985 519 1982 511 988 514 986 516 984 518 982 520 980 543 957 545
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4008 3984 520 1976 517 1980 523 1975 518 1979 514 1016 492 1012 496 1975 518 987 521 1976 517 987 521 1977 516 1014 494 1010 488 990 518 985 523 1008 489 1981 522 1976 517 1013 495 1976 517 987 521 1977 516 987 521 1977 516 8473 4002 3988 516 1979 514 1984 519 1977 516 1982 521 1008 489 988 520 1977 516 988 520 1977 516 988 520 1977 516 987 521 1010 488 989 519 985 523 980 518 2006 487 1984 519 983 514 1983 520 983 515 1983 520 983 515 1982 521 8466 4010 3978 516 1980 523 1974 519 1978 578 1918 522 982 516 1014 494 1977 516 987 521 1976 517 987 521 1976 517 986 522 982 515 1015 493 1011 487 990 518 1979 514 1984 519 984 524 1973 520 984 513 1984 519 983 514 1983 520
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4006 3983 521 1975 518 1980 513 1984 519 1977 516 987 521 983 515 1982 521 1977 516 1981 522 1974 519 1979 514 1983 520 983 514 989 519 985 523 981 517 2007 496 1975 518 985 523 981 517 987 521 1009 489 989 519 985 523 8466 4010 3979 515 1981 522 1975 518 1980 513 1984 519 984 513 990 518 2005 488 1983 520 1977 516 1981 522 1974 519 1979 514 1015 493 985 523 980 518 986 522 1975 518 1980 513 990 518 986 522 981 517 988 520 1010 488 989 519 8469 4007 3981 523 1972 521 1976 517 1980 523 1974 519 984 524 980 518 2005 488 1984 519 1978 515 1982 521 1975 518 1980 513 990 518 985 523 1008 489 987 521 1976 517 1981 522 981 517 1013 495 1009 489 988 520 984 513 1016 492
+#
+name: VOL+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4008 3980 524 1972 521 1976 517 1980 513 1984 519 983 514 989 519 1979 514 989 519 1978 515 1983 520 1976 517 1980 523 980 518 986 522 1008 490 1014 494 1977 516 1980 523 980 518 1980 513 990 518 1012 496 1007 491 986 522 8465 4011 3978 516 1980 513 1983 520 1977 516 1980 523 980 517 986 522 1975 518 985 523 1974 519 1978 515 1982 521 1975 518 985 523 981 517 986 522 1008 489 1981 522 1974 519 985 523 1974 519 1010 498 979 518 985 523 981 517 8470 4006 3983 521 1974 519 1978 515 1982 521 1976 517 986 522 982 515 1981 522 982 516 1982 521 1975 518 1979 514 1983 520 983 515 989 519 1011 497 981 517 1980 523 1974 519 985 523 1974 519 984 524 1006 491 1012 496 982 516
+#
+name: VOL-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4010 3978 515 1980 523 1974 519 1978 515 1982 521 982 515 988 520 1977 516 988 520 1977 516 1981 522 1974 519 1011 497 1006 491 1012 496 1007 490 1013 495 1976 517 1980 523 980 518 1980 523 980 517 985 523 981 516 1981 522 8465 4000 3987 517 1979 513 1984 519 1977 516 1981 522 981 517 987 521 1976 517 987 521 1976 517 1980 523 1974 519 985 523 980 517 986 522 982 516 988 520 1977 516 1981 522 981 517 1981 522 980 517 986 522 982 515 1981 522 8465 3999 3986 518 1977 515 1981 522 1974 519 1978 514 1015 493 984 524 1973 520 1010 487 1983 520 1976 516 1980 523 1006 491 1012 496 1007 490 1013 495 1008 489 1982 521 1975 518 1012 496 1975 518 1011 497 1006 492 1012 496 1975 518
+#
+name: CH+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4005 3982 522 1974 519 1978 515 1982 521 1975 518 986 522 982 515 1981 522 981 517 1980 523 1974 519 984 524 1973 520 984 524 979 518 985 523 981 517 1980 523 1973 520 984 524 1973 520 984 513 990 518 1978 515 989 519 8468 4008 3979 514 1981 522 1974 519 1978 515 1982 521 983 515 1014 494 1977 516 1014 494 1977 516 1982 521 982 516 1981 522 982 515 987 521 983 514 989 519 1978 515 1982 521 982 516 1981 522 981 516 988 520 1977 516 988 520 8468 4007 3980 524 1972 521 1976 517 1980 523 1973 520 984 524 979 519 1979 514 989 519 1978 515 1982 521 982 516 1981 522 981 517 986 522 982 516 1014 494 1977 516 1980 523 980 517 1980 523 979 519 985 523 1975 518 985 523
+#
+name: CH-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4006 3981 523 1973 520 1977 516 1981 522 1974 519 1011 497 1006 491 1979 524 1005 493 1978 515 1982 521 1009 488 1015 493 1010 498 1006 491 1012 496 1007 490 1980 523 1973 520 1010 498 1973 520 983 515 1016 492 1978 514 1983 520 8468 4007 3982 522 1973 520 1977 516 1981 522 1975 518 986 522 1008 490 1982 521 982 516 1982 521 1976 517 986 522 982 516 988 520 984 524 979 519 985 523 1975 518 1979 514 989 519 1978 515 988 520 984 524 1973 520 1977 516
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 561 442 562 4055 591 5032 592 413 591 4026 593 411 593 4026 593 5030 618 387 617 4001 592 5032 591 440 564 4028 591 5033 590 5034 589 440 563
+#
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 591 411 593 4025 593 5030 593 411 593 4025 593 411 593 4025 618 5005 619 5003 593 439 564 4027 592 439 564 4029 590 5033 590 439 564 4055 563 123130 617 387 618 3999 593 5031 592 439 564 4027 592 439 564 4029 590 5034 589 5059 563 440 563 4056 563 442 561 4058 561 5063 560 443 560 4059 560
+#
